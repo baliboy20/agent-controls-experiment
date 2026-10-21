@@ -1,0 +1,24 @@
+{
+  "claims_compared": 88,
+  "skipped_no_agreed_items": [
+    "CLM-0013",
+    "CLM-0020",
+    "CLM-0023",
+    "CLM-0027",
+    "CLM-0028",
+    "CLM-0032",
+    "CLM-0054",
+    "CLM-0059",
+    "CLM-0067",
+    "CLM-0086",
+    "CLM-0099"
+  ],
+  "disagreements": {},
+  "recorded_settlement_differs": [
+    {
+      "claim_id": "CLM-0007",
+      "recorded_gbp": 29780.0,
+      "calculator_gbp": 24900.0
+    }
+  ]
+}

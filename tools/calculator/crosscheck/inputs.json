@@ -1,0 +1,2726 @@
+[
+ {
+  "case_id": "CLM-0001",
+  "product": "Motor - Comprehensive",
+  "claim_type": "Collision - at fault",
+  "policy": {
+   "buildings_sum_insured_gbp": null,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": null,
+   "excess_escape_of_water_gbp": null,
+   "excess_compulsory_gbp": 250.0,
+   "excess_voluntary_gbp": 100.0,
+   "excess_windscreen_gbp": 100.0,
+   "vehicle_value_gbp": 10400.0,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0001",
+    "section": "Motor",
+    "category": "Repair",
+    "agreed_amount_gbp": 2338.26,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 1988.26
+ },
+ {
+  "case_id": "CLM-0002",
+  "product": "Home - Buildings and contents",
+  "claim_type": "Escape of water",
+  "policy": {
+   "buildings_sum_insured_gbp": 275000.0,
+   "contents_sum_insured_gbp": 40000.0,
+   "single_article_limit_gbp": 2000.0,
+   "excess_standard_gbp": 100.0,
+   "excess_escape_of_water_gbp": 350.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0002",
+    "section": "Buildings",
+    "category": "Trace and access",
+    "agreed_amount_gbp": 800.0,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0003",
+    "section": "Buildings",
+    "category": "Drying",
+    "agreed_amount_gbp": 1987.87,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0004",
+    "section": "Buildings",
+    "category": "Repair",
+    "agreed_amount_gbp": 5893.89,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 8331.76
+ },
+ {
+  "case_id": "CLM-0003",
+  "product": "Home - Buildings and contents",
+  "claim_type": "Accidental damage",
+  "policy": {
+   "buildings_sum_insured_gbp": 640000.0,
+   "contents_sum_insured_gbp": 30000.0,
+   "single_article_limit_gbp": 2000.0,
+   "excess_standard_gbp": 100.0,
+   "excess_escape_of_water_gbp": 350.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0005",
+    "section": "Buildings",
+    "category": "Repair",
+    "agreed_amount_gbp": 465.0,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 365.0
+ },
+ {
+  "case_id": "CLM-0004",
+  "product": "Motor - Comprehensive",
+  "claim_type": "Collision - not at fault",
+  "policy": {
+   "buildings_sum_insured_gbp": null,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": null,
+   "excess_escape_of_water_gbp": null,
+   "excess_compulsory_gbp": 250.0,
+   "excess_voluntary_gbp": 250.0,
+   "excess_windscreen_gbp": 100.0,
+   "vehicle_value_gbp": 10400.0,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0006",
+    "section": "Motor",
+    "category": "Repair",
+    "agreed_amount_gbp": 1614.44,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 1114.44
+ },
+ {
+  "case_id": "CLM-0005",
+  "product": "Motor - Comprehensive",
+  "claim_type": "Collision - at fault",
+  "policy": {
+   "buildings_sum_insured_gbp": null,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": null,
+   "excess_escape_of_water_gbp": null,
+   "excess_compulsory_gbp": 250.0,
+   "excess_voluntary_gbp": 250.0,
+   "excess_windscreen_gbp": 100.0,
+   "vehicle_value_gbp": 9250.0,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0007",
+    "section": "Motor",
+    "category": "Repair",
+    "agreed_amount_gbp": 4330.18,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 3830.18
+ },
+ {
+  "case_id": "CLM-0006",
+  "product": "Home - Buildings only",
+  "claim_type": "Fire",
+  "policy": {
+   "buildings_sum_insured_gbp": 320000.0,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": 250.0,
+   "excess_escape_of_water_gbp": 500.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0008",
+    "section": "Buildings",
+    "category": "Repair",
+    "agreed_amount_gbp": 7260.0,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 7010.0
+ },
+ {
+  "case_id": "CLM-0007",
+  "product": "Home - Contents only",
+  "claim_type": "Fire",
+  "policy": {
+   "buildings_sum_insured_gbp": null,
+   "contents_sum_insured_gbp": 25000.0,
+   "single_article_limit_gbp": 2000.0,
+   "excess_standard_gbp": 100.0,
+   "excess_escape_of_water_gbp": 350.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0009",
+    "section": "Contents",
+    "category": "Replacement",
+    "agreed_amount_gbp": 3860.0,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0010",
+    "section": "Contents",
+    "category": "Replacement",
+    "agreed_amount_gbp": 6940.0,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0011",
+    "section": "Contents",
+    "category": "Replacement",
+    "agreed_amount_gbp": 5320.0,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0012",
+    "section": "Contents",
+    "category": "Replacement",
+    "agreed_amount_gbp": 4780.0,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0013",
+    "section": "Contents",
+    "category": "Replacement",
+    "agreed_amount_gbp": 4150.0,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0014",
+    "section": "Contents",
+    "category": "Replacement",
+    "agreed_amount_gbp": 1240.0,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0015",
+    "section": "Contents",
+    "category": "Replacement",
+    "agreed_amount_gbp": 1460.0,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0016",
+    "section": "Contents",
+    "category": "Repair",
+    "agreed_amount_gbp": 2130.0,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 29780.0
+ },
+ {
+  "case_id": "CLM-0008",
+  "product": "Motor - Comprehensive",
+  "claim_type": "Windscreen - replacement",
+  "policy": {
+   "buildings_sum_insured_gbp": null,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": null,
+   "excess_escape_of_water_gbp": null,
+   "excess_compulsory_gbp": 250.0,
+   "excess_voluntary_gbp": 250.0,
+   "excess_windscreen_gbp": 100.0,
+   "vehicle_value_gbp": 8100.0,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0017",
+    "section": "Motor",
+    "category": "Glass",
+    "agreed_amount_gbp": 968.63,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 868.63
+ },
+ {
+  "case_id": "CLM-0009",
+  "product": "Motor - Comprehensive",
+  "claim_type": "Windscreen - repair",
+  "policy": {
+   "buildings_sum_insured_gbp": null,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": null,
+   "excess_escape_of_water_gbp": null,
+   "excess_compulsory_gbp": 250.0,
+   "excess_voluntary_gbp": 100.0,
+   "excess_windscreen_gbp": 100.0,
+   "vehicle_value_gbp": 15200.0,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0018",
+    "section": "Motor",
+    "category": "Glass",
+    "agreed_amount_gbp": 65.02,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 65.02
+ },
+ {
+  "case_id": "CLM-0010",
+  "product": "Home - Buildings and contents",
+  "claim_type": "Accidental damage",
+  "policy": {
+   "buildings_sum_insured_gbp": 320000.0,
+   "contents_sum_insured_gbp": 75000.0,
+   "single_article_limit_gbp": 2000.0,
+   "excess_standard_gbp": 250.0,
+   "excess_escape_of_water_gbp": 500.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0019",
+    "section": "Contents",
+    "category": "Replacement",
+    "agreed_amount_gbp": 649.0,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 399.0
+ },
+ {
+  "case_id": "CLM-0011",
+  "product": "Motor - Comprehensive",
+  "claim_type": "Windscreen - replacement",
+  "policy": {
+   "buildings_sum_insured_gbp": null,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": null,
+   "excess_escape_of_water_gbp": null,
+   "excess_compulsory_gbp": 250.0,
+   "excess_voluntary_gbp": 250.0,
+   "excess_windscreen_gbp": 100.0,
+   "vehicle_value_gbp": 8400.0,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0020",
+    "section": "Motor",
+    "category": "Glass",
+    "agreed_amount_gbp": 419.87,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 319.87
+ },
+ {
+  "case_id": "CLM-0012",
+  "product": "Motor - Comprehensive",
+  "claim_type": "Windscreen - replacement",
+  "policy": {
+   "buildings_sum_insured_gbp": null,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": null,
+   "excess_escape_of_water_gbp": null,
+   "excess_compulsory_gbp": 250.0,
+   "excess_voluntary_gbp": 250.0,
+   "excess_windscreen_gbp": 100.0,
+   "vehicle_value_gbp": 8100.0,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0021",
+    "section": "Motor",
+    "category": "Glass",
+    "agreed_amount_gbp": 506.37,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 406.37
+ },
+ {
+  "case_id": "CLM-0014",
+  "product": "Motor - Comprehensive",
+  "claim_type": "Collision - at fault",
+  "policy": {
+   "buildings_sum_insured_gbp": null,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": null,
+   "excess_escape_of_water_gbp": null,
+   "excess_compulsory_gbp": 250.0,
+   "excess_voluntary_gbp": 250.0,
+   "excess_windscreen_gbp": 100.0,
+   "vehicle_value_gbp": 14900.0,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0024",
+    "section": "Motor",
+    "category": "Repair",
+    "agreed_amount_gbp": 2260.28,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 1760.28
+ },
+ {
+  "case_id": "CLM-0015",
+  "product": "Motor - Comprehensive",
+  "claim_type": "Collision - at fault",
+  "policy": {
+   "buildings_sum_insured_gbp": null,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": null,
+   "excess_escape_of_water_gbp": null,
+   "excess_compulsory_gbp": 250.0,
+   "excess_voluntary_gbp": 100.0,
+   "excess_windscreen_gbp": 100.0,
+   "vehicle_value_gbp": 12100.0,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0025",
+    "section": "Motor",
+    "category": "Total loss",
+    "agreed_amount_gbp": 11510.0,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 11160.0
+ },
+ {
+  "case_id": "CLM-0016",
+  "product": "Motor - Comprehensive",
+  "claim_type": "Collision - at fault",
+  "policy": {
+   "buildings_sum_insured_gbp": null,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": null,
+   "excess_escape_of_water_gbp": null,
+   "excess_compulsory_gbp": 250.0,
+   "excess_voluntary_gbp": 250.0,
+   "excess_windscreen_gbp": 100.0,
+   "vehicle_value_gbp": 22700.0,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0026",
+    "section": "Motor",
+    "category": "Repair",
+    "agreed_amount_gbp": 3070.68,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 2570.68
+ },
+ {
+  "case_id": "CLM-0017",
+  "product": "Motor - Comprehensive",
+  "claim_type": "Malicious damage",
+  "policy": {
+   "buildings_sum_insured_gbp": null,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": null,
+   "excess_escape_of_water_gbp": null,
+   "excess_compulsory_gbp": 250.0,
+   "excess_voluntary_gbp": 500.0,
+   "excess_windscreen_gbp": 100.0,
+   "vehicle_value_gbp": 8400.0,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0027",
+    "section": "Motor",
+    "category": "Repair",
+    "agreed_amount_gbp": 586.64,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 0.0
+ },
+ {
+  "case_id": "CLM-0018",
+  "product": "Home - Buildings only",
+  "claim_type": "Fire",
+  "policy": {
+   "buildings_sum_insured_gbp": 275000.0,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": 100.0,
+   "excess_escape_of_water_gbp": 350.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0028",
+    "section": "Buildings",
+    "category": "Repair",
+    "agreed_amount_gbp": 11840.0,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 11740.0
+ },
+ {
+  "case_id": "CLM-0019",
+  "product": "Home - Buildings and contents",
+  "claim_type": "Escape of water",
+  "policy": {
+   "buildings_sum_insured_gbp": 640000.0,
+   "contents_sum_insured_gbp": 75000.0,
+   "single_article_limit_gbp": 2000.0,
+   "excess_standard_gbp": 100.0,
+   "excess_escape_of_water_gbp": 350.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0029",
+    "section": "Buildings",
+    "category": "Trace and access",
+    "agreed_amount_gbp": 630.0,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0030",
+    "section": "Buildings",
+    "category": "Drying",
+    "agreed_amount_gbp": 2172.47,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0031",
+    "section": "Buildings",
+    "category": "Repair",
+    "agreed_amount_gbp": 1809.01,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 4261.48
+ },
+ {
+  "case_id": "CLM-0021",
+  "product": "Home - Buildings only",
+  "claim_type": "Escape of water",
+  "policy": {
+   "buildings_sum_insured_gbp": 520000.0,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": 100.0,
+   "excess_escape_of_water_gbp": 350.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0034",
+    "section": "Buildings",
+    "category": "Trace and access",
+    "agreed_amount_gbp": 940.0,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0035",
+    "section": "Buildings",
+    "category": "Drying",
+    "agreed_amount_gbp": 2183.52,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0036",
+    "section": "Buildings",
+    "category": "Repair",
+    "agreed_amount_gbp": 3489.73,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 6263.25
+ },
+ {
+  "case_id": "CLM-0022",
+  "product": "Motor - Comprehensive",
+  "claim_type": "Theft of vehicle",
+  "policy": {
+   "buildings_sum_insured_gbp": null,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": null,
+   "excess_escape_of_water_gbp": null,
+   "excess_compulsory_gbp": 250.0,
+   "excess_voluntary_gbp": 500.0,
+   "excess_windscreen_gbp": 100.0,
+   "vehicle_value_gbp": 16300.0,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0037",
+    "section": "Motor",
+    "category": "Total loss",
+    "agreed_amount_gbp": 15950.0,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 15200.0
+ },
+ {
+  "case_id": "CLM-0024",
+  "product": "Motor - Comprehensive",
+  "claim_type": "Collision - not at fault",
+  "policy": {
+   "buildings_sum_insured_gbp": null,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": null,
+   "excess_escape_of_water_gbp": null,
+   "excess_compulsory_gbp": 250.0,
+   "excess_voluntary_gbp": 0.0,
+   "excess_windscreen_gbp": 100.0,
+   "vehicle_value_gbp": 8100.0,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0039",
+    "section": "Motor",
+    "category": "Repair",
+    "agreed_amount_gbp": 3034.43,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 2784.43
+ },
+ {
+  "case_id": "CLM-0025",
+  "product": "Motor - Comprehensive",
+  "claim_type": "Collision - not at fault",
+  "policy": {
+   "buildings_sum_insured_gbp": null,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": null,
+   "excess_escape_of_water_gbp": null,
+   "excess_compulsory_gbp": 250.0,
+   "excess_voluntary_gbp": 250.0,
+   "excess_windscreen_gbp": 100.0,
+   "vehicle_value_gbp": 15200.0,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0040",
+    "section": "Motor",
+    "category": "Repair",
+    "agreed_amount_gbp": 953.07,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 453.07
+ },
+ {
+  "case_id": "CLM-0026",
+  "product": "Home - Buildings and contents",
+  "claim_type": "Accidental damage",
+  "policy": {
+   "buildings_sum_insured_gbp": 640000.0,
+   "contents_sum_insured_gbp": 75000.0,
+   "single_article_limit_gbp": 2000.0,
+   "excess_standard_gbp": 100.0,
+   "excess_escape_of_water_gbp": 350.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0041",
+    "section": "Buildings",
+    "category": "Repair",
+    "agreed_amount_gbp": 620.0,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 520.0
+ },
+ {
+  "case_id": "CLM-0029",
+  "product": "Motor - Comprehensive",
+  "claim_type": "Collision - at fault",
+  "policy": {
+   "buildings_sum_insured_gbp": null,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": null,
+   "excess_escape_of_water_gbp": null,
+   "excess_compulsory_gbp": 250.0,
+   "excess_voluntary_gbp": 0.0,
+   "excess_windscreen_gbp": 100.0,
+   "vehicle_value_gbp": 19200.0,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0044",
+    "section": "Motor",
+    "category": "Repair",
+    "agreed_amount_gbp": 3765.49,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 3515.49
+ },
+ {
+  "case_id": "CLM-0030",
+  "product": "Motor - Comprehensive",
+  "claim_type": "Windscreen - replacement",
+  "policy": {
+   "buildings_sum_insured_gbp": null,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": null,
+   "excess_escape_of_water_gbp": null,
+   "excess_compulsory_gbp": 250.0,
+   "excess_voluntary_gbp": 250.0,
+   "excess_windscreen_gbp": 100.0,
+   "vehicle_value_gbp": 12100.0,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0045",
+    "section": "Motor",
+    "category": "Glass",
+    "agreed_amount_gbp": 313.27,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 213.27
+ },
+ {
+  "case_id": "CLM-0031",
+  "product": "Home - Buildings and contents",
+  "claim_type": "Escape of water",
+  "policy": {
+   "buildings_sum_insured_gbp": 520000.0,
+   "contents_sum_insured_gbp": 30000.0,
+   "single_article_limit_gbp": 2000.0,
+   "excess_standard_gbp": 100.0,
+   "excess_escape_of_water_gbp": 350.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0046",
+    "section": "Buildings",
+    "category": "Trace and access",
+    "agreed_amount_gbp": 385.0,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0047",
+    "section": "Buildings",
+    "category": "Drying",
+    "agreed_amount_gbp": 1290.0,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0048",
+    "section": "Buildings",
+    "category": "Repair",
+    "agreed_amount_gbp": 2795.0,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 4120.0
+ },
+ {
+  "case_id": "CLM-0033",
+  "product": "Home - Buildings and contents",
+  "claim_type": "Escape of water",
+  "policy": {
+   "buildings_sum_insured_gbp": 520000.0,
+   "contents_sum_insured_gbp": 75000.0,
+   "single_article_limit_gbp": 2000.0,
+   "excess_standard_gbp": 100.0,
+   "excess_escape_of_water_gbp": 350.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0050",
+    "section": "Buildings",
+    "category": "Trace and access",
+    "agreed_amount_gbp": 410.0,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0051",
+    "section": "Buildings",
+    "category": "Drying",
+    "agreed_amount_gbp": 2184.0,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0052",
+    "section": "Buildings",
+    "category": "Repair",
+    "agreed_amount_gbp": 2960.0,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 5204.0
+ },
+ {
+  "case_id": "CLM-0034",
+  "product": "Motor - Comprehensive",
+  "claim_type": "Collision - not at fault",
+  "policy": {
+   "buildings_sum_insured_gbp": null,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": null,
+   "excess_escape_of_water_gbp": null,
+   "excess_compulsory_gbp": 250.0,
+   "excess_voluntary_gbp": 250.0,
+   "excess_windscreen_gbp": 100.0,
+   "vehicle_value_gbp": 22700.0,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0053",
+    "section": "Motor",
+    "category": "Repair",
+    "agreed_amount_gbp": 2578.34,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 2078.34
+ },
+ {
+  "case_id": "CLM-0035",
+  "product": "Home - Buildings and contents",
+  "claim_type": "Accidental damage",
+  "policy": {
+   "buildings_sum_insured_gbp": 320000.0,
+   "contents_sum_insured_gbp": 60000.0,
+   "single_article_limit_gbp": 2000.0,
+   "excess_standard_gbp": 100.0,
+   "excess_escape_of_water_gbp": 350.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0054",
+    "section": "Contents",
+    "category": "Replacement",
+    "agreed_amount_gbp": 540.0,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 440.0
+ },
+ {
+  "case_id": "CLM-0036",
+  "product": "Home - Contents only",
+  "claim_type": "Theft",
+  "policy": {
+   "buildings_sum_insured_gbp": null,
+   "contents_sum_insured_gbp": 50000.0,
+   "single_article_limit_gbp": 2000.0,
+   "excess_standard_gbp": 250.0,
+   "excess_escape_of_water_gbp": 500.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0055",
+    "section": "Contents",
+    "category": "Replacement",
+    "agreed_amount_gbp": 479.0,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0056",
+    "section": "Contents",
+    "category": "Valuables",
+    "agreed_amount_gbp": 1200.0,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 1429.0
+ },
+ {
+  "case_id": "CLM-0037",
+  "product": "Home - Buildings only",
+  "claim_type": "Escape of water",
+  "policy": {
+   "buildings_sum_insured_gbp": 450000.0,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": 250.0,
+   "excess_escape_of_water_gbp": 500.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0057",
+    "section": "Buildings",
+    "category": "Trace and access",
+    "agreed_amount_gbp": 510.5,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0058",
+    "section": "Buildings",
+    "category": "Drying",
+    "agreed_amount_gbp": 1580.47,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0059",
+    "section": "Buildings",
+    "category": "Repair",
+    "agreed_amount_gbp": 4606.72,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 6197.69
+ },
+ {
+  "case_id": "CLM-0038",
+  "product": "Home - Buildings only",
+  "claim_type": "Escape of water",
+  "policy": {
+   "buildings_sum_insured_gbp": 640000.0,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": 250.0,
+   "excess_escape_of_water_gbp": 500.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0060",
+    "section": "Buildings",
+    "category": "Trace and access",
+    "agreed_amount_gbp": 655.5,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0061",
+    "section": "Buildings",
+    "category": "Drying",
+    "agreed_amount_gbp": 2184.0,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0062",
+    "section": "Buildings",
+    "category": "Repair",
+    "agreed_amount_gbp": 3480.0,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 5819.5
+ },
+ {
+  "case_id": "CLM-0039",
+  "product": "Home - Contents only",
+  "claim_type": "Theft",
+  "policy": {
+   "buildings_sum_insured_gbp": null,
+   "contents_sum_insured_gbp": 75000.0,
+   "single_article_limit_gbp": 2000.0,
+   "excess_standard_gbp": 250.0,
+   "excess_escape_of_water_gbp": 500.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0063",
+    "section": "Contents",
+    "category": "Replacement",
+    "agreed_amount_gbp": 899.0,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0064",
+    "section": "Contents",
+    "category": "Valuables",
+    "agreed_amount_gbp": 1850.0,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 2499.0
+ },
+ {
+  "case_id": "CLM-0040",
+  "product": "Motor - Comprehensive",
+  "claim_type": "Collision - at fault",
+  "policy": {
+   "buildings_sum_insured_gbp": null,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": null,
+   "excess_escape_of_water_gbp": null,
+   "excess_compulsory_gbp": 250.0,
+   "excess_voluntary_gbp": 250.0,
+   "excess_windscreen_gbp": 100.0,
+   "vehicle_value_gbp": 22700.0,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0065",
+    "section": "Motor",
+    "category": "Repair",
+    "agreed_amount_gbp": 5982.08,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 5482.08
+ },
+ {
+  "case_id": "CLM-0041",
+  "product": "Motor - Comprehensive",
+  "claim_type": "Collision - at fault",
+  "policy": {
+   "buildings_sum_insured_gbp": null,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": null,
+   "excess_escape_of_water_gbp": null,
+   "excess_compulsory_gbp": 250.0,
+   "excess_voluntary_gbp": 0.0,
+   "excess_windscreen_gbp": 100.0,
+   "vehicle_value_gbp": 9250.0,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0066",
+    "section": "Motor",
+    "category": "Total loss",
+    "agreed_amount_gbp": 8520.0,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 8270.0
+ },
+ {
+  "case_id": "CLM-0042",
+  "product": "Motor - Comprehensive",
+  "claim_type": "Collision - not at fault",
+  "policy": {
+   "buildings_sum_insured_gbp": null,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": null,
+   "excess_escape_of_water_gbp": null,
+   "excess_compulsory_gbp": 250.0,
+   "excess_voluntary_gbp": 250.0,
+   "excess_windscreen_gbp": 100.0,
+   "vehicle_value_gbp": 8100.0,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0067",
+    "section": "Motor",
+    "category": "Repair",
+    "agreed_amount_gbp": 3796.18,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 3296.18
+ },
+ {
+  "case_id": "CLM-0043",
+  "product": "Home - Buildings and contents",
+  "claim_type": "Theft",
+  "policy": {
+   "buildings_sum_insured_gbp": 640000.0,
+   "contents_sum_insured_gbp": 60000.0,
+   "single_article_limit_gbp": 2000.0,
+   "excess_standard_gbp": 100.0,
+   "excess_escape_of_water_gbp": 350.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": [
+    {
+     "description": "Stainless steel automatic wristwatch",
+     "value_gbp": 7500.0
+    }
+   ]
+  },
+  "items": [
+   {
+    "item_id": "CI-0068",
+    "section": "Contents",
+    "category": "Valuables",
+    "agreed_amount_gbp": 7200.0,
+    "specified_item": "Stainless steel automatic wristwatch"
+   }
+  ],
+  "_recorded_settlement_gbp": 7100.0
+ },
+ {
+  "case_id": "CLM-0044",
+  "product": "Home - Buildings and contents",
+  "claim_type": "Escape of water",
+  "policy": {
+   "buildings_sum_insured_gbp": 380000.0,
+   "contents_sum_insured_gbp": 75000.0,
+   "single_article_limit_gbp": 2000.0,
+   "excess_standard_gbp": 100.0,
+   "excess_escape_of_water_gbp": 350.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0069",
+    "section": "Buildings",
+    "category": "Trace and access",
+    "agreed_amount_gbp": 660.5,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0070",
+    "section": "Buildings",
+    "category": "Drying",
+    "agreed_amount_gbp": 2349.63,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0071",
+    "section": "Buildings",
+    "category": "Repair",
+    "agreed_amount_gbp": 3095.07,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 5755.2
+ },
+ {
+  "case_id": "CLM-0045",
+  "product": "Motor - Comprehensive",
+  "claim_type": "Collision - at fault",
+  "policy": {
+   "buildings_sum_insured_gbp": null,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": null,
+   "excess_escape_of_water_gbp": null,
+   "excess_compulsory_gbp": 250.0,
+   "excess_voluntary_gbp": 100.0,
+   "excess_windscreen_gbp": 100.0,
+   "vehicle_value_gbp": 11300.0,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0072",
+    "section": "Motor",
+    "category": "Repair",
+    "agreed_amount_gbp": 2318.46,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 1968.46
+ },
+ {
+  "case_id": "CLM-0046",
+  "product": "Motor - Comprehensive",
+  "claim_type": "Collision - at fault",
+  "policy": {
+   "buildings_sum_insured_gbp": null,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": null,
+   "excess_escape_of_water_gbp": null,
+   "excess_compulsory_gbp": 250.0,
+   "excess_voluntary_gbp": 500.0,
+   "excess_windscreen_gbp": 100.0,
+   "vehicle_value_gbp": 24500.0,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0073",
+    "section": "Motor",
+    "category": "Repair",
+    "agreed_amount_gbp": 5229.83,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 4479.83
+ },
+ {
+  "case_id": "CLM-0047",
+  "product": "Home - Buildings only",
+  "claim_type": "Escape of water",
+  "policy": {
+   "buildings_sum_insured_gbp": 450000.0,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": 100.0,
+   "excess_escape_of_water_gbp": 350.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0074",
+    "section": "Buildings",
+    "category": "Trace and access",
+    "agreed_amount_gbp": 420.0,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0075",
+    "section": "Buildings",
+    "category": "Repair",
+    "agreed_amount_gbp": 3170.0,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0076",
+    "section": "Buildings",
+    "category": "Repair",
+    "agreed_amount_gbp": 1150.0,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 4390.0
+ },
+ {
+  "case_id": "CLM-0048",
+  "product": "Home - Buildings and contents",
+  "claim_type": "Escape of water",
+  "policy": {
+   "buildings_sum_insured_gbp": 640000.0,
+   "contents_sum_insured_gbp": 75000.0,
+   "single_article_limit_gbp": 2000.0,
+   "excess_standard_gbp": 100.0,
+   "excess_escape_of_water_gbp": 350.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0077",
+    "section": "Buildings",
+    "category": "Trace and access",
+    "agreed_amount_gbp": 540.0,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0078",
+    "section": "Buildings",
+    "category": "Drying",
+    "agreed_amount_gbp": 904.4,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0079",
+    "section": "Buildings",
+    "category": "Repair",
+    "agreed_amount_gbp": 3721.71,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 4816.11
+ },
+ {
+  "case_id": "CLM-0049",
+  "product": "Motor - Comprehensive",
+  "claim_type": "Windscreen - repair",
+  "policy": {
+   "buildings_sum_insured_gbp": null,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": null,
+   "excess_escape_of_water_gbp": null,
+   "excess_compulsory_gbp": 250.0,
+   "excess_voluntary_gbp": 100.0,
+   "excess_windscreen_gbp": 100.0,
+   "vehicle_value_gbp": 10400.0,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0080",
+    "section": "Motor",
+    "category": "Glass",
+    "agreed_amount_gbp": 83.78,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 83.78
+ },
+ {
+  "case_id": "CLM-0050",
+  "product": "Motor - Comprehensive",
+  "claim_type": "Malicious damage",
+  "policy": {
+   "buildings_sum_insured_gbp": null,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": null,
+   "excess_escape_of_water_gbp": null,
+   "excess_compulsory_gbp": 250.0,
+   "excess_voluntary_gbp": 250.0,
+   "excess_windscreen_gbp": 100.0,
+   "vehicle_value_gbp": 16100.0,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0081",
+    "section": "Motor",
+    "category": "Repair",
+    "agreed_amount_gbp": 1811.15,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 1311.15
+ },
+ {
+  "case_id": "CLM-0051",
+  "product": "Home - Buildings and contents",
+  "claim_type": "Accidental damage",
+  "policy": {
+   "buildings_sum_insured_gbp": 320000.0,
+   "contents_sum_insured_gbp": 40000.0,
+   "single_article_limit_gbp": 2000.0,
+   "excess_standard_gbp": 100.0,
+   "excess_escape_of_water_gbp": 350.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0082",
+    "section": "Contents",
+    "category": "Replacement",
+    "agreed_amount_gbp": 529.0,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 429.0
+ },
+ {
+  "case_id": "CLM-0052",
+  "product": "Home - Buildings and contents",
+  "claim_type": "Accidental damage",
+  "policy": {
+   "buildings_sum_insured_gbp": 380000.0,
+   "contents_sum_insured_gbp": 75000.0,
+   "single_article_limit_gbp": 2000.0,
+   "excess_standard_gbp": 100.0,
+   "excess_escape_of_water_gbp": 350.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0083",
+    "section": "Buildings",
+    "category": "Repair",
+    "agreed_amount_gbp": 395.0,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 295.0
+ },
+ {
+  "case_id": "CLM-0053",
+  "product": "Motor - Comprehensive",
+  "claim_type": "Windscreen - replacement",
+  "policy": {
+   "buildings_sum_insured_gbp": null,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": null,
+   "excess_escape_of_water_gbp": null,
+   "excess_compulsory_gbp": 250.0,
+   "excess_voluntary_gbp": 250.0,
+   "excess_windscreen_gbp": 100.0,
+   "vehicle_value_gbp": 12100.0,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0084",
+    "section": "Motor",
+    "category": "Glass",
+    "agreed_amount_gbp": 601.19,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 501.19
+ },
+ {
+  "case_id": "CLM-0055",
+  "product": "Motor - Comprehensive",
+  "claim_type": "Windscreen - replacement",
+  "policy": {
+   "buildings_sum_insured_gbp": null,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": null,
+   "excess_escape_of_water_gbp": null,
+   "excess_compulsory_gbp": 250.0,
+   "excess_voluntary_gbp": 250.0,
+   "excess_windscreen_gbp": 100.0,
+   "vehicle_value_gbp": 19200.0,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0087",
+    "section": "Motor",
+    "category": "Glass",
+    "agreed_amount_gbp": 810.59,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 710.59
+ },
+ {
+  "case_id": "CLM-0056",
+  "product": "Motor - Comprehensive",
+  "claim_type": "Collision - not at fault",
+  "policy": {
+   "buildings_sum_insured_gbp": null,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": null,
+   "excess_escape_of_water_gbp": null,
+   "excess_compulsory_gbp": 250.0,
+   "excess_voluntary_gbp": 0.0,
+   "excess_windscreen_gbp": 100.0,
+   "vehicle_value_gbp": 17400.0,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0088",
+    "section": "Motor",
+    "category": "Repair",
+    "agreed_amount_gbp": 4620.07,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 4370.07
+ },
+ {
+  "case_id": "CLM-0057",
+  "product": "Home - Buildings and contents",
+  "claim_type": "Theft",
+  "policy": {
+   "buildings_sum_insured_gbp": 640000.0,
+   "contents_sum_insured_gbp": 50000.0,
+   "single_article_limit_gbp": 2000.0,
+   "excess_standard_gbp": 100.0,
+   "excess_escape_of_water_gbp": 350.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0089",
+    "section": "Contents",
+    "category": "Replacement",
+    "agreed_amount_gbp": 1849.0,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0090",
+    "section": "Contents",
+    "category": "Replacement",
+    "agreed_amount_gbp": 1099.0,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0091",
+    "section": "Contents",
+    "category": "Valuables",
+    "agreed_amount_gbp": 1200.0,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 4048.0
+ },
+ {
+  "case_id": "CLM-0058",
+  "product": "Home - Contents only",
+  "claim_type": "Theft",
+  "policy": {
+   "buildings_sum_insured_gbp": null,
+   "contents_sum_insured_gbp": 50000.0,
+   "single_article_limit_gbp": 2000.0,
+   "excess_standard_gbp": 250.0,
+   "excess_escape_of_water_gbp": 500.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0092",
+    "section": "Contents",
+    "category": "Replacement",
+    "agreed_amount_gbp": 1099.0,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0093",
+    "section": "Contents",
+    "category": "Valuables",
+    "agreed_amount_gbp": 1350.0,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0094",
+    "section": "Contents",
+    "category": "Replacement",
+    "agreed_amount_gbp": 150.0,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 2349.0
+ },
+ {
+  "case_id": "CLM-0060",
+  "product": "Home - Buildings and contents",
+  "claim_type": "Accidental damage",
+  "policy": {
+   "buildings_sum_insured_gbp": 380000.0,
+   "contents_sum_insured_gbp": 75000.0,
+   "single_article_limit_gbp": 2000.0,
+   "excess_standard_gbp": 250.0,
+   "excess_escape_of_water_gbp": 500.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0096",
+    "section": "Contents",
+    "category": "Replacement",
+    "agreed_amount_gbp": 1199.0,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 949.0
+ },
+ {
+  "case_id": "CLM-0061",
+  "product": "Motor - Comprehensive",
+  "claim_type": "Collision - not at fault",
+  "policy": {
+   "buildings_sum_insured_gbp": null,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": null,
+   "excess_escape_of_water_gbp": null,
+   "excess_compulsory_gbp": 250.0,
+   "excess_voluntary_gbp": 250.0,
+   "excess_windscreen_gbp": 100.0,
+   "vehicle_value_gbp": 6200.0,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0097",
+    "section": "Motor",
+    "category": "Repair",
+    "agreed_amount_gbp": 3238.13,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 2738.13
+ },
+ {
+  "case_id": "CLM-0062",
+  "product": "Home - Buildings and contents",
+  "claim_type": "Accidental damage",
+  "policy": {
+   "buildings_sum_insured_gbp": 275000.0,
+   "contents_sum_insured_gbp": 30000.0,
+   "single_article_limit_gbp": 2000.0,
+   "excess_standard_gbp": 100.0,
+   "excess_escape_of_water_gbp": 350.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0098",
+    "section": "Contents",
+    "category": "Replacement",
+    "agreed_amount_gbp": 489.0,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 389.0
+ },
+ {
+  "case_id": "CLM-0063",
+  "product": "Home - Buildings and contents",
+  "claim_type": "Escape of water",
+  "policy": {
+   "buildings_sum_insured_gbp": 320000.0,
+   "contents_sum_insured_gbp": 30000.0,
+   "single_article_limit_gbp": 2000.0,
+   "excess_standard_gbp": 250.0,
+   "excess_escape_of_water_gbp": 500.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0099",
+    "section": "Buildings",
+    "category": "Trace and access",
+    "agreed_amount_gbp": 700.0,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0100",
+    "section": "Buildings",
+    "category": "Drying",
+    "agreed_amount_gbp": 1812.27,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0101",
+    "section": "Buildings",
+    "category": "Repair",
+    "agreed_amount_gbp": 4624.93,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 6637.2
+ },
+ {
+  "case_id": "CLM-0064",
+  "product": "Motor - Third party, fire and theft",
+  "claim_type": "Theft of vehicle",
+  "policy": {
+   "buildings_sum_insured_gbp": null,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": null,
+   "excess_escape_of_water_gbp": null,
+   "excess_compulsory_gbp": 250.0,
+   "excess_voluntary_gbp": 250.0,
+   "excess_windscreen_gbp": 100.0,
+   "vehicle_value_gbp": 9250.0,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0102",
+    "section": "Motor",
+    "category": "Total loss",
+    "agreed_amount_gbp": 8530.0,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 8030.0
+ },
+ {
+  "case_id": "CLM-0065",
+  "product": "Home - Buildings and contents",
+  "claim_type": "Escape of water",
+  "policy": {
+   "buildings_sum_insured_gbp": 380000.0,
+   "contents_sum_insured_gbp": 60000.0,
+   "single_article_limit_gbp": 2000.0,
+   "excess_standard_gbp": 100.0,
+   "excess_escape_of_water_gbp": 350.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0103",
+    "section": "Buildings",
+    "category": "Trace and access",
+    "agreed_amount_gbp": 870.0,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0104",
+    "section": "Buildings",
+    "category": "Drying",
+    "agreed_amount_gbp": 965.97,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0105",
+    "section": "Buildings",
+    "category": "Repair",
+    "agreed_amount_gbp": 2294.81,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 3780.78
+ },
+ {
+  "case_id": "CLM-0066",
+  "product": "Home - Buildings and contents",
+  "claim_type": "Escape of water",
+  "policy": {
+   "buildings_sum_insured_gbp": 450000.0,
+   "contents_sum_insured_gbp": 60000.0,
+   "single_article_limit_gbp": 2000.0,
+   "excess_standard_gbp": 250.0,
+   "excess_escape_of_water_gbp": 500.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0106",
+    "section": "Buildings",
+    "category": "Trace and access",
+    "agreed_amount_gbp": 360.5,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0107",
+    "section": "Buildings",
+    "category": "Drying",
+    "agreed_amount_gbp": 2111.52,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0108",
+    "section": "Buildings",
+    "category": "Repair",
+    "agreed_amount_gbp": 2438.11,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 4410.13
+ },
+ {
+  "case_id": "CLM-0068",
+  "product": "Motor - Comprehensive",
+  "claim_type": "Collision - at fault",
+  "policy": {
+   "buildings_sum_insured_gbp": null,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": null,
+   "excess_escape_of_water_gbp": null,
+   "excess_compulsory_gbp": 250.0,
+   "excess_voluntary_gbp": 500.0,
+   "excess_windscreen_gbp": 100.0,
+   "vehicle_value_gbp": 16100.0,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0111",
+    "section": "Motor",
+    "category": "Repair",
+    "agreed_amount_gbp": 5636.14,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 4886.14
+ },
+ {
+  "case_id": "CLM-0069",
+  "product": "Home - Buildings and contents",
+  "claim_type": "Theft",
+  "policy": {
+   "buildings_sum_insured_gbp": 640000.0,
+   "contents_sum_insured_gbp": 30000.0,
+   "single_article_limit_gbp": 2000.0,
+   "excess_standard_gbp": 100.0,
+   "excess_escape_of_water_gbp": 350.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0112",
+    "section": "Contents",
+    "category": "Replacement",
+    "agreed_amount_gbp": 1650.0,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0113",
+    "section": "Contents",
+    "category": "Replacement",
+    "agreed_amount_gbp": 1199.0,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0114",
+    "section": "Contents",
+    "category": "Replacement",
+    "agreed_amount_gbp": 549.0,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 3298.0
+ },
+ {
+  "case_id": "CLM-0070",
+  "product": "Motor - Comprehensive",
+  "claim_type": "Collision - at fault",
+  "policy": {
+   "buildings_sum_insured_gbp": null,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": null,
+   "excess_escape_of_water_gbp": null,
+   "excess_compulsory_gbp": 250.0,
+   "excess_voluntary_gbp": 250.0,
+   "excess_windscreen_gbp": 100.0,
+   "vehicle_value_gbp": 24500.0,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0115",
+    "section": "Motor",
+    "category": "Repair",
+    "agreed_amount_gbp": 5011.51,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 4511.51
+ },
+ {
+  "case_id": "CLM-0071",
+  "product": "Motor - Comprehensive",
+  "claim_type": "Malicious damage",
+  "policy": {
+   "buildings_sum_insured_gbp": null,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": null,
+   "excess_escape_of_water_gbp": null,
+   "excess_compulsory_gbp": 250.0,
+   "excess_voluntary_gbp": 100.0,
+   "excess_windscreen_gbp": 100.0,
+   "vehicle_value_gbp": 15200.0,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0116",
+    "section": "Motor",
+    "category": "Repair",
+    "agreed_amount_gbp": 701.63,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 351.63
+ },
+ {
+  "case_id": "CLM-0072",
+  "product": "Motor - Comprehensive",
+  "claim_type": "Collision - not at fault",
+  "policy": {
+   "buildings_sum_insured_gbp": null,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": null,
+   "excess_escape_of_water_gbp": null,
+   "excess_compulsory_gbp": 250.0,
+   "excess_voluntary_gbp": 500.0,
+   "excess_windscreen_gbp": 100.0,
+   "vehicle_value_gbp": 9250.0,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0117",
+    "section": "Motor",
+    "category": "Repair",
+    "agreed_amount_gbp": 2185.92,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 1435.92
+ },
+ {
+  "case_id": "CLM-0073",
+  "product": "Motor - Comprehensive",
+  "claim_type": "Windscreen - repair",
+  "policy": {
+   "buildings_sum_insured_gbp": null,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": null,
+   "excess_escape_of_water_gbp": null,
+   "excess_compulsory_gbp": 250.0,
+   "excess_voluntary_gbp": 250.0,
+   "excess_windscreen_gbp": 100.0,
+   "vehicle_value_gbp": 10400.0,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0118",
+    "section": "Motor",
+    "category": "Glass",
+    "agreed_amount_gbp": 91.63,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 91.63
+ },
+ {
+  "case_id": "CLM-0074",
+  "product": "Motor - Comprehensive",
+  "claim_type": "Malicious damage",
+  "policy": {
+   "buildings_sum_insured_gbp": null,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": null,
+   "excess_escape_of_water_gbp": null,
+   "excess_compulsory_gbp": 250.0,
+   "excess_voluntary_gbp": 0.0,
+   "excess_windscreen_gbp": 100.0,
+   "vehicle_value_gbp": 15200.0,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0119",
+    "section": "Motor",
+    "category": "Repair",
+    "agreed_amount_gbp": 1847.92,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 1597.92
+ },
+ {
+  "case_id": "CLM-0075",
+  "product": "Home - Buildings and contents",
+  "claim_type": "Accidental damage",
+  "policy": {
+   "buildings_sum_insured_gbp": 640000.0,
+   "contents_sum_insured_gbp": 75000.0,
+   "single_article_limit_gbp": 2000.0,
+   "excess_standard_gbp": 100.0,
+   "excess_escape_of_water_gbp": 350.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0120",
+    "section": "Contents",
+    "category": "Replacement",
+    "agreed_amount_gbp": 870.0,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 770.0
+ },
+ {
+  "case_id": "CLM-0076",
+  "product": "Home - Buildings only",
+  "claim_type": "Storm",
+  "policy": {
+   "buildings_sum_insured_gbp": 520000.0,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": 250.0,
+   "excess_escape_of_water_gbp": 500.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0121",
+    "section": "Buildings",
+    "category": "Repair",
+    "agreed_amount_gbp": 399.96,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0122",
+    "section": "Buildings",
+    "category": "Repair",
+    "agreed_amount_gbp": 2483.68,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 2633.64
+ },
+ {
+  "case_id": "CLM-0077",
+  "product": "Home - Buildings and contents",
+  "claim_type": "Storm",
+  "policy": {
+   "buildings_sum_insured_gbp": 640000.0,
+   "contents_sum_insured_gbp": 40000.0,
+   "single_article_limit_gbp": 2000.0,
+   "excess_standard_gbp": 100.0,
+   "excess_escape_of_water_gbp": 350.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0123",
+    "section": "Buildings",
+    "category": "Repair",
+    "agreed_amount_gbp": 315.56,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0124",
+    "section": "Buildings",
+    "category": "Repair",
+    "agreed_amount_gbp": 658.29,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 873.85
+ },
+ {
+  "case_id": "CLM-0078",
+  "product": "Home - Buildings and contents",
+  "claim_type": "Storm",
+  "policy": {
+   "buildings_sum_insured_gbp": 275000.0,
+   "contents_sum_insured_gbp": 40000.0,
+   "single_article_limit_gbp": 2000.0,
+   "excess_standard_gbp": 100.0,
+   "excess_escape_of_water_gbp": 350.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0125",
+    "section": "Buildings",
+    "category": "Repair",
+    "agreed_amount_gbp": 1565.0,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0126",
+    "section": "Contents",
+    "category": "Replacement",
+    "agreed_amount_gbp": 1120.0,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 2485.0
+ },
+ {
+  "case_id": "CLM-0079",
+  "product": "Home - Buildings only",
+  "claim_type": "Storm",
+  "policy": {
+   "buildings_sum_insured_gbp": 275000.0,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": 100.0,
+   "excess_escape_of_water_gbp": 350.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0127",
+    "section": "Buildings",
+    "category": "Repair",
+    "agreed_amount_gbp": 349.73,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0128",
+    "section": "Buildings",
+    "category": "Repair",
+    "agreed_amount_gbp": 3207.44,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 3457.17
+ },
+ {
+  "case_id": "CLM-0080",
+  "product": "Motor - Comprehensive",
+  "claim_type": "Collision - at fault",
+  "policy": {
+   "buildings_sum_insured_gbp": null,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": null,
+   "excess_escape_of_water_gbp": null,
+   "excess_compulsory_gbp": 250.0,
+   "excess_voluntary_gbp": 0.0,
+   "excess_windscreen_gbp": 100.0,
+   "vehicle_value_gbp": 6200.0,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0129",
+    "section": "Motor",
+    "category": "Repair",
+    "agreed_amount_gbp": 2845.11,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 2595.11
+ },
+ {
+  "case_id": "CLM-0081",
+  "product": "Home - Buildings and contents",
+  "claim_type": "Storm",
+  "policy": {
+   "buildings_sum_insured_gbp": 450000.0,
+   "contents_sum_insured_gbp": 75000.0,
+   "single_article_limit_gbp": 2000.0,
+   "excess_standard_gbp": 100.0,
+   "excess_escape_of_water_gbp": 350.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0130",
+    "section": "Buildings",
+    "category": "Repair",
+    "agreed_amount_gbp": 411.89,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0131",
+    "section": "Buildings",
+    "category": "Repair",
+    "agreed_amount_gbp": 2301.76,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 2613.65
+ },
+ {
+  "case_id": "CLM-0082",
+  "product": "Home - Buildings only",
+  "claim_type": "Storm",
+  "policy": {
+   "buildings_sum_insured_gbp": 450000.0,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": 100.0,
+   "excess_escape_of_water_gbp": 350.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0132",
+    "section": "Buildings",
+    "category": "Repair",
+    "agreed_amount_gbp": 2260.0,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 2160.0
+ },
+ {
+  "case_id": "CLM-0083",
+  "product": "Home - Buildings only",
+  "claim_type": "Storm",
+  "policy": {
+   "buildings_sum_insured_gbp": 450000.0,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": 100.0,
+   "excess_escape_of_water_gbp": 350.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0133",
+    "section": "Buildings",
+    "category": "Repair",
+    "agreed_amount_gbp": 1840.0,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 1740.0
+ },
+ {
+  "case_id": "CLM-0084",
+  "product": "Home - Buildings and contents",
+  "claim_type": "Storm",
+  "policy": {
+   "buildings_sum_insured_gbp": 380000.0,
+   "contents_sum_insured_gbp": 75000.0,
+   "single_article_limit_gbp": 2000.0,
+   "excess_standard_gbp": 100.0,
+   "excess_escape_of_water_gbp": 350.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0134",
+    "section": "Buildings",
+    "category": "Repair",
+    "agreed_amount_gbp": 411.68,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": null
+ },
+ {
+  "case_id": "CLM-0085",
+  "product": "Home - Buildings and contents",
+  "claim_type": "Theft",
+  "policy": {
+   "buildings_sum_insured_gbp": 275000.0,
+   "contents_sum_insured_gbp": 75000.0,
+   "single_article_limit_gbp": 2000.0,
+   "excess_standard_gbp": 250.0,
+   "excess_escape_of_water_gbp": 500.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0136",
+    "section": "Contents",
+    "category": "Replacement",
+    "agreed_amount_gbp": 429.0,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0137",
+    "section": "Contents",
+    "category": "Replacement",
+    "agreed_amount_gbp": 520.0,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 699.0
+ },
+ {
+  "case_id": "CLM-0087",
+  "product": "Home - Buildings and contents",
+  "claim_type": "Storm",
+  "policy": {
+   "buildings_sum_insured_gbp": 450000.0,
+   "contents_sum_insured_gbp": 75000.0,
+   "single_article_limit_gbp": 2000.0,
+   "excess_standard_gbp": 100.0,
+   "excess_escape_of_water_gbp": 350.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0141",
+    "section": "Buildings",
+    "category": "Repair",
+    "agreed_amount_gbp": 282.24,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": null
+ },
+ {
+  "case_id": "CLM-0088",
+  "product": "Motor - Comprehensive",
+  "claim_type": "Collision - not at fault",
+  "policy": {
+   "buildings_sum_insured_gbp": null,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": null,
+   "excess_escape_of_water_gbp": null,
+   "excess_compulsory_gbp": 250.0,
+   "excess_voluntary_gbp": 0.0,
+   "excess_windscreen_gbp": 100.0,
+   "vehicle_value_gbp": 6200.0,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0143",
+    "section": "Motor",
+    "category": "Repair",
+    "agreed_amount_gbp": 4567.08,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 4317.08
+ },
+ {
+  "case_id": "CLM-0089",
+  "product": "Home - Buildings and contents",
+  "claim_type": "Storm",
+  "policy": {
+   "buildings_sum_insured_gbp": 520000.0,
+   "contents_sum_insured_gbp": 60000.0,
+   "single_article_limit_gbp": 2000.0,
+   "excess_standard_gbp": 250.0,
+   "excess_escape_of_water_gbp": 500.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0144",
+    "section": "Buildings",
+    "category": "Repair",
+    "agreed_amount_gbp": 220.74,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": null
+ },
+ {
+  "case_id": "CLM-0090",
+  "product": "Home - Buildings and contents",
+  "claim_type": "Accidental damage",
+  "policy": {
+   "buildings_sum_insured_gbp": 520000.0,
+   "contents_sum_insured_gbp": 75000.0,
+   "single_article_limit_gbp": 2000.0,
+   "excess_standard_gbp": 250.0,
+   "excess_escape_of_water_gbp": 500.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0146",
+    "section": "Contents",
+    "category": "Replacement",
+    "agreed_amount_gbp": 1380.0,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 1130.0
+ },
+ {
+  "case_id": "CLM-0091",
+  "product": "Motor - Comprehensive",
+  "claim_type": "Collision - not at fault",
+  "policy": {
+   "buildings_sum_insured_gbp": null,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": null,
+   "excess_escape_of_water_gbp": null,
+   "excess_compulsory_gbp": 250.0,
+   "excess_voluntary_gbp": 100.0,
+   "excess_windscreen_gbp": 100.0,
+   "vehicle_value_gbp": 10400.0,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0147",
+    "section": "Motor",
+    "category": "Repair",
+    "agreed_amount_gbp": 4269.21,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 3919.21
+ },
+ {
+  "case_id": "CLM-0092",
+  "product": "Home - Buildings only",
+  "claim_type": "Storm",
+  "policy": {
+   "buildings_sum_insured_gbp": 520000.0,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": 250.0,
+   "excess_escape_of_water_gbp": 500.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0148",
+    "section": "Buildings",
+    "category": "Repair",
+    "agreed_amount_gbp": 196.32,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": null
+ },
+ {
+  "case_id": "CLM-0093",
+  "product": "Motor - Comprehensive",
+  "claim_type": "Collision - at fault",
+  "policy": {
+   "buildings_sum_insured_gbp": null,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": null,
+   "excess_escape_of_water_gbp": null,
+   "excess_compulsory_gbp": 250.0,
+   "excess_voluntary_gbp": 250.0,
+   "excess_windscreen_gbp": 100.0,
+   "vehicle_value_gbp": 17400.0,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0150",
+    "section": "Motor",
+    "category": "Repair",
+    "agreed_amount_gbp": 1776.47,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 1276.47
+ },
+ {
+  "case_id": "CLM-0094",
+  "product": "Home - Buildings and contents",
+  "claim_type": "Accidental damage",
+  "policy": {
+   "buildings_sum_insured_gbp": 450000.0,
+   "contents_sum_insured_gbp": 30000.0,
+   "single_article_limit_gbp": 2000.0,
+   "excess_standard_gbp": 100.0,
+   "excess_escape_of_water_gbp": 350.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0151",
+    "section": "Contents",
+    "category": "Replacement",
+    "agreed_amount_gbp": 2450.0,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 2350.0
+ },
+ {
+  "case_id": "CLM-0095",
+  "product": "Home - Buildings and contents",
+  "claim_type": "Theft",
+  "policy": {
+   "buildings_sum_insured_gbp": 520000.0,
+   "contents_sum_insured_gbp": 75000.0,
+   "single_article_limit_gbp": 2000.0,
+   "excess_standard_gbp": 100.0,
+   "excess_escape_of_water_gbp": 350.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0152",
+    "section": "Contents",
+    "category": "Replacement",
+    "agreed_amount_gbp": 949.0,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0153",
+    "section": "Contents",
+    "category": "Replacement",
+    "agreed_amount_gbp": 310.0,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 1159.0
+ },
+ {
+  "case_id": "CLM-0096",
+  "product": "Home - Buildings only",
+  "claim_type": "Storm",
+  "policy": {
+   "buildings_sum_insured_gbp": 450000.0,
+   "contents_sum_insured_gbp": null,
+   "single_article_limit_gbp": null,
+   "excess_standard_gbp": 100.0,
+   "excess_escape_of_water_gbp": 350.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0154",
+    "section": "Buildings",
+    "category": "Repair",
+    "agreed_amount_gbp": 251.79,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": null
+ },
+ {
+  "case_id": "CLM-0097",
+  "product": "Home - Buildings and contents",
+  "claim_type": "Theft",
+  "policy": {
+   "buildings_sum_insured_gbp": 380000.0,
+   "contents_sum_insured_gbp": 30000.0,
+   "single_article_limit_gbp": 2000.0,
+   "excess_standard_gbp": 250.0,
+   "excess_escape_of_water_gbp": 500.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0156",
+    "section": "Contents",
+    "category": "Replacement",
+    "agreed_amount_gbp": 1480.0,
+    "specified_item": null
+   },
+   {
+    "item_id": "CI-0157",
+    "section": "Contents",
+    "category": "Replacement",
+    "agreed_amount_gbp": 189.0,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": 1419.0
+ },
+ {
+  "case_id": "CLM-0098",
+  "product": "Home - Buildings and contents",
+  "claim_type": "Storm",
+  "policy": {
+   "buildings_sum_insured_gbp": 450000.0,
+   "contents_sum_insured_gbp": 60000.0,
+   "single_article_limit_gbp": 2000.0,
+   "excess_standard_gbp": 250.0,
+   "excess_escape_of_water_gbp": 500.0,
+   "excess_compulsory_gbp": null,
+   "excess_voluntary_gbp": null,
+   "excess_windscreen_gbp": null,
+   "vehicle_value_gbp": null,
+   "specified_items": []
+  },
+  "items": [
+   {
+    "item_id": "CI-0158",
+    "section": "Buildings",
+    "category": "Repair",
+    "agreed_amount_gbp": 416.53,
+    "specified_item": null
+   }
+  ],
+  "_recorded_settlement_gbp": null
+ }
+]

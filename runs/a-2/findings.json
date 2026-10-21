@@ -1,0 +1,100 @@
+{
+  "run_id": "a-2",
+  "findings": [
+    {
+      "claim_id": "CLM-0007",
+      "family": "F2 Limits",
+      "rule_ids": ["R-02"],
+      "clause_ids": ["H-4.1", "H-3.1"],
+      "summary": "Contents fire claim settled at £29,780 but the contents sum insured is £25,000. Most payable is the sum insured less the £100 excess. £5,000 interim already paid; balance must be cut.",
+      "recorded_settlement_gbp": 29780.0,
+      "correct_settlement_gbp": 24900.0,
+      "recommended_action": "Recalculate settlement",
+      "confidence": "High",
+      "checker_status": "Not checked"
+    },
+    {
+      "claim_id": "CLM-0031",
+      "family": "F1 Cover period",
+      "rule_ids": ["R-01"],
+      "clause_ids": ["H-1.1"],
+      "summary": "Incident on 5 Sep 2026 predates the policy first being taken out (first_incepted and cover_start 8 Sep, comparison-site sale). Not covered, despite status Active; settlement of £4,120 agreed in error.",
+      "recorded_settlement_gbp": 4120.0,
+      "correct_settlement_gbp": 0.0,
+      "recommended_action": "Refer to Claims Validation",
+      "confidence": "High",
+      "checker_status": "Not checked"
+    },
+    {
+      "claim_id": "CLM-0020",
+      "family": "F6 Declines",
+      "rule_ids": ["R-06", "R-08"],
+      "clause_ids": ["H-5.1", "H-2.2", "H-2.1"],
+      "summary": "Declined under H-5.1 (wear and tear), but the plumber's report on file says the tap hose burst suddenly and the cabinet and floor were previously sound. Evidence contradicts the clause; accept under H-2.2. Complaint CMP-001 wrongly not upheld.",
+      "recorded_settlement_gbp": null,
+      "correct_settlement_gbp": 3770.0,
+      "recommended_action": "Review decline",
+      "confidence": "High",
+      "checker_status": "Not checked"
+    },
+    {
+      "claim_id": "CLM-0057",
+      "family": "F4 Evidence",
+      "rule_ids": ["R-04"],
+      "clause_ids": ["H-6.1", "H-6.2"],
+      "summary": "Theft settled in full (£4,048, paid) with evidence Insufficient: no crime reference and no proof of ownership or value for laptop (£1,849), phone (£1,099) or gold chain (£1,200). Settled to hit the 10-day target.",
+      "recorded_settlement_gbp": 4048.0,
+      "correct_settlement_gbp": null,
+      "recommended_action": "Obtain evidence",
+      "confidence": "High",
+      "checker_status": "Not checked"
+    },
+    {
+      "claim_id": "CLM-0047",
+      "family": "F3 Excess",
+      "rule_ids": ["R-03"],
+      "clause_ids": ["H-1.2"],
+      "summary": "Escape of water excess of £350 deducted from both the interim (£1,500) and the final payment (£3,240): £700 taken. Policyholder has received £4,040 net, £350 short of the £4,390 due. Refund £350.",
+      "recorded_settlement_gbp": 4040.0,
+      "correct_settlement_gbp": 4390.0,
+      "recommended_action": "Recalculate settlement",
+      "confidence": "High",
+      "checker_status": "Not checked"
+    },
+    {
+      "claim_id": "CLM-0038",
+      "related_claim_ids": ["CLM-0033"],
+      "family": "F5 Supplier invoices",
+      "rule_ids": ["R-05"],
+      "summary": "SUP-17 drying invoice DRN-08562/2 (£2,184, 3 dehumidifiers and 2 air movers, 12-18 Sep) duplicates DRN-08562 on CLM-0033: same amount, equipment and hire dates. Both paid. Refer before further payment; if duplicate, remove £2,184 here.",
+      "recorded_settlement_gbp": 5819.5,
+      "correct_settlement_gbp": 3635.5,
+      "recommended_action": "Refer to Claims Validation",
+      "confidence": "Medium",
+      "checker_status": "Not checked"
+    },
+    {
+      "claim_id": "CLM-0033",
+      "related_claim_ids": ["CLM-0038"],
+      "family": "F5 Supplier invoices",
+      "rule_ids": ["R-05"],
+      "summary": "SUP-17 invoice DRN-08562 (£2,184, 12-18 Sep) matches DRN-08562/2 on CLM-0038 in amount, equipment and hire dates; paid on both claims. Validation to decide which claim the work belongs to.",
+      "recorded_settlement_gbp": 5204.0,
+      "correct_settlement_gbp": null,
+      "recommended_action": "Refer to Claims Validation",
+      "confidence": "Medium",
+      "checker_status": "Not checked"
+    },
+    {
+      "claim_id": "CLM-0001",
+      "family": "F8 Complaints",
+      "rule_ids": ["R-08"],
+      "summary": "Complaint CMP-005 upheld and £100 paid because a courtesy car 'should have been provided under the policy', but POL-0035 has no optional covers and the wording has no courtesy car clause. Check the basis for the outcome and redress.",
+      "recorded_settlement_gbp": null,
+      "correct_settlement_gbp": null,
+      "recommended_action": "Review complaint",
+      "confidence": "Low",
+      "checker_status": "Not checked"
+    }
+  ]
+}

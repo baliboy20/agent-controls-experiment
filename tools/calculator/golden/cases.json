@@ -1,0 +1,756 @@
+{
+  "spec_version": "0.3",
+  "checked_by": "hand, against SPEC.md; G01\u2013G13 re-checked by both implementations; G14\u2013G16 added for D-3 to D-5",
+  "cases": [
+    {
+      "case_id": "G01",
+      "note": "Storm, buildings, standard excess",
+      "input": {
+        "product": "Home",
+        "claim_type": "Storm",
+        "policy": {
+          "buildings_sum_insured_gbp": 300000,
+          "contents_sum_insured_gbp": null,
+          "single_article_limit_gbp": null,
+          "specified_items": [],
+          "excess_standard_gbp": 350,
+          "excess_escape_of_water_gbp": null,
+          "excess_compulsory_gbp": null,
+          "excess_voluntary_gbp": null,
+          "excess_windscreen_gbp": null,
+          "vehicle_value_gbp": null
+        },
+        "items": [
+          {
+            "item_id": "I1",
+            "section": "Buildings",
+            "category": "Repair",
+            "agreed_amount_gbp": 3200,
+            "specified_item": null
+          }
+        ]
+      },
+      "expected": {
+        "sections": {
+          "Buildings": {
+            "items_allowed_gbp": 3200,
+            "cap_gbp": 300000,
+            "capped_total_gbp": 3200,
+            "excess_gbp": 350,
+            "settlement_gbp": 2850
+          }
+        },
+        "excess_total_gbp": 350,
+        "settlement_total_gbp": 2850
+      }
+    },
+    {
+      "case_id": "G02",
+      "note": "Escape of water under both sections: excess per section",
+      "input": {
+        "product": "Home",
+        "claim_type": "Escape of water",
+        "policy": {
+          "buildings_sum_insured_gbp": 350000,
+          "contents_sum_insured_gbp": 40000,
+          "single_article_limit_gbp": null,
+          "specified_items": [],
+          "excess_standard_gbp": 250,
+          "excess_escape_of_water_gbp": 500,
+          "excess_compulsory_gbp": null,
+          "excess_voluntary_gbp": null,
+          "excess_windscreen_gbp": null,
+          "vehicle_value_gbp": null
+        },
+        "items": [
+          {
+            "item_id": "I1",
+            "section": "Buildings",
+            "category": "Trace and access",
+            "agreed_amount_gbp": 1500,
+            "specified_item": null
+          },
+          {
+            "item_id": "I2",
+            "section": "Buildings",
+            "category": "Repair",
+            "agreed_amount_gbp": 2500,
+            "specified_item": null
+          },
+          {
+            "item_id": "I3",
+            "section": "Contents",
+            "category": "Replacement",
+            "agreed_amount_gbp": 1200,
+            "specified_item": null
+          }
+        ]
+      },
+      "expected": {
+        "sections": {
+          "Buildings": {
+            "items_allowed_gbp": 4000,
+            "cap_gbp": 350000,
+            "capped_total_gbp": 4000,
+            "excess_gbp": 500,
+            "settlement_gbp": 3500
+          },
+          "Contents": {
+            "items_allowed_gbp": 1200,
+            "cap_gbp": 40000,
+            "capped_total_gbp": 1200,
+            "excess_gbp": 500,
+            "settlement_gbp": 700
+          }
+        },
+        "excess_total_gbp": 1000,
+        "settlement_total_gbp": 4200
+      }
+    },
+    {
+      "case_id": "G03",
+      "note": "Trace and access capped at \u00a35,000",
+      "input": {
+        "product": "Home",
+        "claim_type": "Escape of water",
+        "policy": {
+          "buildings_sum_insured_gbp": 300000,
+          "contents_sum_insured_gbp": null,
+          "single_article_limit_gbp": null,
+          "specified_items": [],
+          "excess_standard_gbp": 100,
+          "excess_escape_of_water_gbp": 250,
+          "excess_compulsory_gbp": null,
+          "excess_voluntary_gbp": null,
+          "excess_windscreen_gbp": null,
+          "vehicle_value_gbp": null
+        },
+        "items": [
+          {
+            "item_id": "I1",
+            "section": "Buildings",
+            "category": "Trace and access",
+            "agreed_amount_gbp": 6200,
+            "specified_item": null
+          },
+          {
+            "item_id": "I2",
+            "section": "Buildings",
+            "category": "Repair",
+            "agreed_amount_gbp": 1000,
+            "specified_item": null
+          }
+        ]
+      },
+      "expected": {
+        "sections": {
+          "Buildings": {
+            "items_allowed_gbp": 6000,
+            "cap_gbp": 300000,
+            "capped_total_gbp": 6000,
+            "excess_gbp": 250,
+            "settlement_gbp": 5750
+          }
+        },
+        "excess_total_gbp": 250,
+        "settlement_total_gbp": 5750
+      }
+    },
+    {
+      "case_id": "G04",
+      "note": "Unspecified valuable above single article limit",
+      "input": {
+        "product": "Home",
+        "claim_type": "Theft",
+        "policy": {
+          "buildings_sum_insured_gbp": null,
+          "contents_sum_insured_gbp": 30000,
+          "single_article_limit_gbp": 1500,
+          "specified_items": [],
+          "excess_standard_gbp": 100,
+          "excess_escape_of_water_gbp": null,
+          "excess_compulsory_gbp": null,
+          "excess_voluntary_gbp": null,
+          "excess_windscreen_gbp": null,
+          "vehicle_value_gbp": null
+        },
+        "items": [
+          {
+            "item_id": "I1",
+            "section": "Contents",
+            "category": "Valuables",
+            "agreed_amount_gbp": 2400,
+            "specified_item": null
+          }
+        ]
+      },
+      "expected": {
+        "sections": {
+          "Contents": {
+            "items_allowed_gbp": 1500,
+            "cap_gbp": 30000,
+            "capped_total_gbp": 1500,
+            "excess_gbp": 100,
+            "settlement_gbp": 1400
+          }
+        },
+        "excess_total_gbp": 100,
+        "settlement_total_gbp": 1400
+      }
+    },
+    {
+      "case_id": "G05",
+      "note": "Specified valuable above single article limit, within specified value",
+      "input": {
+        "product": "Home",
+        "claim_type": "Theft",
+        "policy": {
+          "buildings_sum_insured_gbp": null,
+          "contents_sum_insured_gbp": 60000,
+          "single_article_limit_gbp": 2000,
+          "specified_items": [
+            {
+              "description": "Gold wristwatch",
+              "value_gbp": 7500
+            }
+          ],
+          "excess_standard_gbp": 250,
+          "excess_escape_of_water_gbp": null,
+          "excess_compulsory_gbp": null,
+          "excess_voluntary_gbp": null,
+          "excess_windscreen_gbp": null,
+          "vehicle_value_gbp": null
+        },
+        "items": [
+          {
+            "item_id": "I1",
+            "section": "Contents",
+            "category": "Valuables",
+            "agreed_amount_gbp": 7200,
+            "specified_item": "Gold wristwatch"
+          }
+        ]
+      },
+      "expected": {
+        "sections": {
+          "Contents": {
+            "items_allowed_gbp": 7200,
+            "cap_gbp": 60000,
+            "capped_total_gbp": 7200,
+            "excess_gbp": 250,
+            "settlement_gbp": 6950
+          }
+        },
+        "excess_total_gbp": 250,
+        "settlement_total_gbp": 6950
+      }
+    },
+    {
+      "case_id": "G06",
+      "note": "Valuables total limited to one third of contents sum insured",
+      "input": {
+        "product": "Home",
+        "claim_type": "Theft",
+        "policy": {
+          "buildings_sum_insured_gbp": null,
+          "contents_sum_insured_gbp": 9000,
+          "single_article_limit_gbp": 2000,
+          "specified_items": [],
+          "excess_standard_gbp": 100,
+          "excess_escape_of_water_gbp": null,
+          "excess_compulsory_gbp": null,
+          "excess_voluntary_gbp": null,
+          "excess_windscreen_gbp": null,
+          "vehicle_value_gbp": null
+        },
+        "items": [
+          {
+            "item_id": "I1",
+            "section": "Contents",
+            "category": "Valuables",
+            "agreed_amount_gbp": 1500,
+            "specified_item": null
+          },
+          {
+            "item_id": "I2",
+            "section": "Contents",
+            "category": "Valuables",
+            "agreed_amount_gbp": 1500,
+            "specified_item": null
+          },
+          {
+            "item_id": "I3",
+            "section": "Contents",
+            "category": "Valuables",
+            "agreed_amount_gbp": 1500,
+            "specified_item": null
+          }
+        ]
+      },
+      "expected": {
+        "sections": {
+          "Contents": {
+            "items_allowed_gbp": 3000,
+            "cap_gbp": 9000,
+            "capped_total_gbp": 3000,
+            "excess_gbp": 100,
+            "settlement_gbp": 2900
+          }
+        },
+        "excess_total_gbp": 100,
+        "settlement_total_gbp": 2900
+      }
+    },
+    {
+      "case_id": "G07",
+      "note": "Section capped at sum insured, then excess",
+      "input": {
+        "product": "Home",
+        "claim_type": "Fire",
+        "policy": {
+          "buildings_sum_insured_gbp": null,
+          "contents_sum_insured_gbp": 40000,
+          "single_article_limit_gbp": null,
+          "specified_items": [],
+          "excess_standard_gbp": 250,
+          "excess_escape_of_water_gbp": null,
+          "excess_compulsory_gbp": null,
+          "excess_voluntary_gbp": null,
+          "excess_windscreen_gbp": null,
+          "vehicle_value_gbp": null
+        },
+        "items": [
+          {
+            "item_id": "I1",
+            "section": "Contents",
+            "category": "Replacement",
+            "agreed_amount_gbp": 48000,
+            "specified_item": null
+          }
+        ]
+      },
+      "expected": {
+        "sections": {
+          "Contents": {
+            "items_allowed_gbp": 48000,
+            "cap_gbp": 40000,
+            "capped_total_gbp": 40000,
+            "excess_gbp": 250,
+            "settlement_gbp": 39750
+          }
+        },
+        "excess_total_gbp": 250,
+        "settlement_total_gbp": 39750
+      }
+    },
+    {
+      "case_id": "G08",
+      "note": "Windscreen repair carries no excess",
+      "input": {
+        "product": "Motor",
+        "claim_type": "Windscreen - repair",
+        "policy": {
+          "buildings_sum_insured_gbp": null,
+          "contents_sum_insured_gbp": null,
+          "single_article_limit_gbp": null,
+          "specified_items": [],
+          "excess_standard_gbp": null,
+          "excess_escape_of_water_gbp": null,
+          "excess_compulsory_gbp": 250,
+          "excess_voluntary_gbp": 100,
+          "excess_windscreen_gbp": 115,
+          "vehicle_value_gbp": 15000
+        },
+        "items": [
+          {
+            "item_id": "I1",
+            "section": "Motor",
+            "category": "Glass",
+            "agreed_amount_gbp": 90,
+            "specified_item": null
+          }
+        ]
+      },
+      "expected": {
+        "sections": {
+          "Motor": {
+            "items_allowed_gbp": 90,
+            "cap_gbp": 15000,
+            "capped_total_gbp": 90,
+            "excess_gbp": 0,
+            "settlement_gbp": 90
+          }
+        },
+        "excess_total_gbp": 0,
+        "settlement_total_gbp": 90
+      }
+    },
+    {
+      "case_id": "G09",
+      "note": "Windscreen replacement carries the windscreen excess only",
+      "input": {
+        "product": "Motor",
+        "claim_type": "Windscreen - replacement",
+        "policy": {
+          "buildings_sum_insured_gbp": null,
+          "contents_sum_insured_gbp": null,
+          "single_article_limit_gbp": null,
+          "specified_items": [],
+          "excess_standard_gbp": null,
+          "excess_escape_of_water_gbp": null,
+          "excess_compulsory_gbp": 250,
+          "excess_voluntary_gbp": 100,
+          "excess_windscreen_gbp": 115,
+          "vehicle_value_gbp": 15000
+        },
+        "items": [
+          {
+            "item_id": "I1",
+            "section": "Motor",
+            "category": "Glass",
+            "agreed_amount_gbp": 640,
+            "specified_item": null
+          }
+        ]
+      },
+      "expected": {
+        "sections": {
+          "Motor": {
+            "items_allowed_gbp": 640,
+            "cap_gbp": 15000,
+            "capped_total_gbp": 640,
+            "excess_gbp": 115,
+            "settlement_gbp": 525
+          }
+        },
+        "excess_total_gbp": 115,
+        "settlement_total_gbp": 525
+      }
+    },
+    {
+      "case_id": "G10",
+      "note": "Total loss capped at market value; compulsory plus voluntary excess",
+      "input": {
+        "product": "Motor",
+        "claim_type": "Collision - at fault",
+        "policy": {
+          "buildings_sum_insured_gbp": null,
+          "contents_sum_insured_gbp": null,
+          "single_article_limit_gbp": null,
+          "specified_items": [],
+          "excess_standard_gbp": null,
+          "excess_escape_of_water_gbp": null,
+          "excess_compulsory_gbp": 250,
+          "excess_voluntary_gbp": 250,
+          "excess_windscreen_gbp": 115,
+          "vehicle_value_gbp": 12500
+        },
+        "items": [
+          {
+            "item_id": "I1",
+            "section": "Motor",
+            "category": "Total loss",
+            "agreed_amount_gbp": 14000,
+            "specified_item": null
+          }
+        ]
+      },
+      "expected": {
+        "sections": {
+          "Motor": {
+            "items_allowed_gbp": 14000,
+            "cap_gbp": 12500,
+            "capped_total_gbp": 12500,
+            "excess_gbp": 500,
+            "settlement_gbp": 12000
+          }
+        },
+        "excess_total_gbp": 500,
+        "settlement_total_gbp": 12000
+      }
+    },
+    {
+      "case_id": "G11",
+      "note": "Excess larger than the claim: settlement is zero, not negative",
+      "input": {
+        "product": "Home",
+        "claim_type": "Accidental damage",
+        "policy": {
+          "buildings_sum_insured_gbp": 250000,
+          "contents_sum_insured_gbp": null,
+          "single_article_limit_gbp": null,
+          "specified_items": [],
+          "excess_standard_gbp": 100,
+          "excess_escape_of_water_gbp": null,
+          "excess_compulsory_gbp": null,
+          "excess_voluntary_gbp": null,
+          "excess_windscreen_gbp": null,
+          "vehicle_value_gbp": null
+        },
+        "items": [
+          {
+            "item_id": "I1",
+            "section": "Buildings",
+            "category": "Repair",
+            "agreed_amount_gbp": 80,
+            "specified_item": null
+          }
+        ]
+      },
+      "expected": {
+        "sections": {
+          "Buildings": {
+            "items_allowed_gbp": 80,
+            "cap_gbp": 250000,
+            "capped_total_gbp": 80,
+            "excess_gbp": 100,
+            "settlement_gbp": 0
+          }
+        },
+        "excess_total_gbp": 100,
+        "settlement_total_gbp": 0
+      }
+    },
+    {
+      "case_id": "G12",
+      "note": "Subsidence carries a \u00a31,000 excess",
+      "input": {
+        "product": "Home",
+        "claim_type": "Subsidence",
+        "policy": {
+          "buildings_sum_insured_gbp": 400000,
+          "contents_sum_insured_gbp": null,
+          "single_article_limit_gbp": null,
+          "specified_items": [],
+          "excess_standard_gbp": 350,
+          "excess_escape_of_water_gbp": null,
+          "excess_compulsory_gbp": null,
+          "excess_voluntary_gbp": null,
+          "excess_windscreen_gbp": null,
+          "vehicle_value_gbp": null
+        },
+        "items": [
+          {
+            "item_id": "I1",
+            "section": "Buildings",
+            "category": "Repair",
+            "agreed_amount_gbp": 18000,
+            "specified_item": null
+          }
+        ]
+      },
+      "expected": {
+        "sections": {
+          "Buildings": {
+            "items_allowed_gbp": 18000,
+            "cap_gbp": 400000,
+            "capped_total_gbp": 18000,
+            "excess_gbp": 1000,
+            "settlement_gbp": 17000
+          }
+        },
+        "excess_total_gbp": 1000,
+        "settlement_total_gbp": 17000
+      }
+    },
+    {
+      "case_id": "G13",
+      "note": "Specified valuable claimed above its specified value",
+      "input": {
+        "product": "Home",
+        "claim_type": "Theft",
+        "policy": {
+          "buildings_sum_insured_gbp": null,
+          "contents_sum_insured_gbp": 30000,
+          "single_article_limit_gbp": 1000,
+          "specified_items": [
+            {
+              "description": "Diamond ring",
+              "value_gbp": 1800
+            }
+          ],
+          "excess_standard_gbp": 100,
+          "excess_escape_of_water_gbp": null,
+          "excess_compulsory_gbp": null,
+          "excess_voluntary_gbp": null,
+          "excess_windscreen_gbp": null,
+          "vehicle_value_gbp": null
+        },
+        "items": [
+          {
+            "item_id": "I1",
+            "section": "Contents",
+            "category": "Valuables",
+            "agreed_amount_gbp": 2200,
+            "specified_item": "Diamond ring"
+          }
+        ]
+      },
+      "expected": {
+        "sections": {
+          "Contents": {
+            "items_allowed_gbp": 1800,
+            "cap_gbp": 30000,
+            "capped_total_gbp": 1800,
+            "excess_gbp": 100,
+            "settlement_gbp": 1700
+          }
+        },
+        "excess_total_gbp": 100,
+        "settlement_total_gbp": 1700
+      }
+    },
+    {
+      "case_id": "G14",
+      "note": "D-3: trace and access cap per claim, shared pro rata across sections",
+      "input": {
+        "product": "Home",
+        "claim_type": "Escape of water",
+        "policy": {
+          "buildings_sum_insured_gbp": 300000,
+          "contents_sum_insured_gbp": 40000,
+          "single_article_limit_gbp": null,
+          "specified_items": [],
+          "excess_standard_gbp": 100,
+          "excess_escape_of_water_gbp": 250,
+          "excess_compulsory_gbp": null,
+          "excess_voluntary_gbp": null,
+          "excess_windscreen_gbp": null,
+          "vehicle_value_gbp": null
+        },
+        "items": [
+          {
+            "item_id": "I1",
+            "section": "Buildings",
+            "category": "Trace and access",
+            "agreed_amount_gbp": 4000,
+            "specified_item": null
+          },
+          {
+            "item_id": "I2",
+            "section": "Buildings",
+            "category": "Repair",
+            "agreed_amount_gbp": 1000,
+            "specified_item": null
+          },
+          {
+            "item_id": "I3",
+            "section": "Contents",
+            "category": "Trace and access",
+            "agreed_amount_gbp": 2000,
+            "specified_item": null
+          }
+        ]
+      },
+      "expected": {
+        "sections": {
+          "Buildings": {
+            "items_allowed_gbp": 4333.33,
+            "cap_gbp": 300000,
+            "capped_total_gbp": 4333.33,
+            "excess_gbp": 250,
+            "settlement_gbp": 4083.33
+          },
+          "Contents": {
+            "items_allowed_gbp": 1666.67,
+            "cap_gbp": 40000,
+            "capped_total_gbp": 1666.67,
+            "excess_gbp": 250,
+            "settlement_gbp": 1416.67
+          }
+        },
+        "excess_total_gbp": 500,
+        "settlement_total_gbp": 5500
+      }
+    },
+    {
+      "case_id": "G15",
+      "note": "D-4: specified item matched ignoring case and spacing",
+      "input": {
+        "product": "Home",
+        "claim_type": "Theft",
+        "policy": {
+          "buildings_sum_insured_gbp": null,
+          "contents_sum_insured_gbp": 30000,
+          "single_article_limit_gbp": 1000,
+          "specified_items": [
+            {
+              "description": "Diamond  ring",
+              "value_gbp": 1800
+            }
+          ],
+          "excess_standard_gbp": 100,
+          "excess_escape_of_water_gbp": null,
+          "excess_compulsory_gbp": null,
+          "excess_voluntary_gbp": null,
+          "excess_windscreen_gbp": null,
+          "vehicle_value_gbp": null
+        },
+        "items": [
+          {
+            "item_id": "I1",
+            "section": "Contents",
+            "category": "Valuables",
+            "agreed_amount_gbp": 2200,
+            "specified_item": "  DIAMOND RING "
+          }
+        ]
+      },
+      "expected": {
+        "sections": {
+          "Contents": {
+            "items_allowed_gbp": 1800,
+            "cap_gbp": 30000,
+            "capped_total_gbp": 1800,
+            "excess_gbp": 100,
+            "settlement_gbp": 1700
+          }
+        },
+        "excess_total_gbp": 100,
+        "settlement_total_gbp": 1700
+      }
+    },
+    {
+      "case_id": "G16",
+      "note": "D-5: full product name mapped to Motor",
+      "input": {
+        "product": "Motor - Comprehensive",
+        "claim_type": "Windscreen - replacement",
+        "policy": {
+          "buildings_sum_insured_gbp": null,
+          "contents_sum_insured_gbp": null,
+          "single_article_limit_gbp": null,
+          "specified_items": [],
+          "excess_standard_gbp": null,
+          "excess_escape_of_water_gbp": null,
+          "excess_compulsory_gbp": 250,
+          "excess_voluntary_gbp": 100,
+          "excess_windscreen_gbp": 115,
+          "vehicle_value_gbp": 15000
+        },
+        "items": [
+          {
+            "item_id": "I1",
+            "section": "Motor",
+            "category": "Glass",
+            "agreed_amount_gbp": 640,
+            "specified_item": null
+          }
+        ]
+      },
+      "expected": {
+        "sections": {
+          "Motor": {
+            "items_allowed_gbp": 640,
+            "cap_gbp": 15000,
+            "capped_total_gbp": 640,
+            "excess_gbp": 115,
+            "settlement_gbp": 525
+          }
+        },
+        "excess_total_gbp": 115,
+        "settlement_total_gbp": 525
+      }
+    }
+  ]
+}

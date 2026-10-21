@@ -1,0 +1,33 @@
+{
+  "row": {
+    "run": "b-2",
+    "design": "B",
+    "model": "claude-sonnet-5-5",
+    "genuine_found": 6,
+    "genuine_total": 6,
+    "right_reason": 6,
+    "lookalikes_flagged": 0,
+    "lookalikes_total": 6,
+    "other_flags": 1,
+    "settlements_given": 3,
+    "settlements_correct": 3,
+    "findings": 8,
+    "answer_key_access": 0
+  },
+  "found": [
+    "CASE-01",
+    "CASE-03",
+    "CASE-05",
+    "CASE-07",
+    "CASE-09",
+    "CASE-11"
+  ],
+  "missed": [],
+  "wrong_reason": [],
+  "lookalikes_flagged": [],
+  "other_flags": [
+    "CLM-0034"
+  ],
+  "answer_key_access": [],
+  "settlement_errors": []
+}

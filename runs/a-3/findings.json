@@ -1,0 +1,106 @@
+{
+  "run_id": "a-3",
+  "findings": [
+    {
+      "claim_id": "CLM-0031",
+      "family": "F1 Cover period",
+      "rule_ids": ["R-01"],
+      "clause_ids": ["H-1.1"],
+      "summary": "Escape of water on 2026-09-05, but the policy was first taken out on 2026-09-08 (cover_start the same day). Incident pre-dates the policy so it is not covered; status 'Active' hides this. £4,120 was agreed. Plumber invoice is also dated 6 Sep and is from a non-panel supplier.",
+      "recorded_settlement_gbp": 4120.0,
+      "correct_settlement_gbp": 0.0,
+      "recommended_action": "Refer to Claims Validation",
+      "confidence": "High"
+    },
+    {
+      "claim_id": "CLM-0007",
+      "family": "F2 Limits",
+      "rule_ids": ["R-02"],
+      "clause_ids": ["H-4.1"],
+      "summary": "Contents fire. Agreed items total £29,880, less £100 excess gives £29,780, but the contents sum insured is £25,000. The most payable is the sum insured less excess: £24,900. Proposed settlement is £4,880 too high; £4,900 net already paid as interim.",
+      "recorded_settlement_gbp": 29780.0,
+      "correct_settlement_gbp": 24900.0,
+      "recommended_action": "Recalculate settlement",
+      "confidence": "High"
+    },
+    {
+      "claim_id": "CLM-0047",
+      "family": "F3 Excess",
+      "rule_ids": ["R-03"],
+      "clause_ids": ["H-1.2"],
+      "summary": "Excess of £350 was deducted from both the interim payment (CPY-0024) and the final settlement (CPY-0088), £700 in total. Excess may be taken once. Policyholder has been underpaid £350: net paid £4,040 against a correct settlement of £4,390 (the recorded figure is right; the payments are not).",
+      "recorded_settlement_gbp": 4390.0,
+      "correct_settlement_gbp": 4390.0,
+      "recommended_action": "Recalculate settlement",
+      "confidence": "High"
+    },
+    {
+      "claim_id": "CLM-0034",
+      "family": "F3 Excess",
+      "rule_ids": ["R-03"],
+      "clause_ids": ["M-1.2"],
+      "summary": "Non-fault collision. The third-party insurer paid the full £2,578.34 on 2026-10-15 (CPY-0112), but the £500 excess has not been refunded to the policyholder. Comparable claims (CLM-0004, 0024, 0025) were refunded. Settlement of £2,078.34 is otherwise right.",
+      "recorded_settlement_gbp": 2078.34,
+      "correct_settlement_gbp": 2078.34,
+      "recommended_action": "Other",
+      "confidence": "High"
+    },
+    {
+      "claim_id": "CLM-0057",
+      "family": "F4 Evidence",
+      "rule_ids": ["R-04"],
+      "clause_ids": ["H-6.1", "H-6.2"],
+      "summary": "Theft settled and paid £4,048 with evidence_status Insufficient: no crime reference and no proof of ownership or value for laptop, phone or gold chain (each over £500). Decision note says it was settled in full to meet the 10-day target. Nothing is payable until evidence is received.",
+      "recorded_settlement_gbp": 4048.0,
+      "correct_settlement_gbp": 0.0,
+      "recommended_action": "Obtain evidence",
+      "confidence": "High"
+    },
+    {
+      "claim_id": "CLM-0038",
+      "related_claim_ids": ["CLM-0033"],
+      "family": "F5 Supplier invoices",
+      "rule_ids": ["R-05"],
+      "clause_ids": ["H-6.3"],
+      "summary": "Drying invoice DRN-08562/2 (SUP-17, £2,184, 12-18 Sep, 3 dehumidifiers + 2 air movers, 7 days) duplicates DRN-08562 charged to CLM-0033 and was paid on both claims. Should have been referred to Claims Validation before payment. If it is the duplicate, settlement falls by £2,184 and £2,184 should be recovered.",
+      "recorded_settlement_gbp": 5819.5,
+      "correct_settlement_gbp": 3635.5,
+      "recommended_action": "Refer to Claims Validation",
+      "confidence": "Medium"
+    },
+    {
+      "claim_id": "CLM-0033",
+      "related_claim_ids": ["CLM-0038"],
+      "family": "F5 Supplier invoices",
+      "rule_ids": ["R-05"],
+      "clause_ids": ["H-6.3"],
+      "summary": "Drying invoice DRN-08562 (SUP-17, £2,184, 12-18 Sep) has identical amount, dates and equipment to DRN-08562/2 charged to CLM-0038; both paid. Validation must establish which property the work was done at; only one invoice is payable.",
+      "recorded_settlement_gbp": 5204.0,
+      "correct_settlement_gbp": null,
+      "recommended_action": "Refer to Claims Validation",
+      "confidence": "Medium"
+    },
+    {
+      "claim_id": "CLM-0020",
+      "family": "F6 Declines",
+      "rule_ids": ["R-06"],
+      "clause_ids": ["H-5.1", "H-2.2"],
+      "summary": "Declined under H-5.1 as wear and tear, but the plumber's report says the tap hose burst suddenly, with cabinet base and floor dry and sound beforehand. Evidence contradicts the clause, so the claim should be accepted. Complaint CMP-001 was not upheld on the same wrong basis. Payable: £4,120 less £350 EoW excess.",
+      "recorded_settlement_gbp": null,
+      "correct_settlement_gbp": 3770.0,
+      "recommended_action": "Review decline",
+      "confidence": "High"
+    },
+    {
+      "claim_id": "CLM-0001",
+      "family": "F8 Complaints",
+      "rule_ids": ["R-08"],
+      "clause_ids": [],
+      "summary": "Complaint CMP-005 was upheld, with £100 paid, on the basis that the policy includes a courtesy car. POL-0035 has no optional covers, so no courtesy car was due. Outcome and redress rest on a wrong policy fact; re-review against the schedule. Claim settlement itself (£1,988.26) is correct.",
+      "recorded_settlement_gbp": 1988.26,
+      "correct_settlement_gbp": 1988.26,
+      "recommended_action": "Review complaint",
+      "confidence": "Medium"
+    }
+  ]
+}

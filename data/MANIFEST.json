@@ -1,0 +1,29 @@
+{
+  "file": "claims.sqlite",
+  "sha256": "a79e52f31333c047a733fedd64d269f6defbfae4cab5ac2b0c3b26c6c181b009",
+  "row_counts": {
+    "_meta_columns": 124,
+    "_meta_dataset": 12,
+    "_meta_rules": 8,
+    "_meta_tables": 12,
+    "claim_items": 162,
+    "claim_payments": 114,
+    "claims": 99,
+    "complaints": 10,
+    "policies": 99,
+    "policy_clauses": 22,
+    "staff": 10,
+    "suppliers": 18
+  },
+  "removed_tables": [
+    "_truth_cases",
+    "_truth_case_records"
+  ],
+  "removed_metadata": "rows describing the answer-key tables in _meta_tables and _meta_columns; the 'planted cases' sentence in the disclaimer",
+  "source": {
+    "path": "046-study-data-sets/datasets/insurance_claims/db/insurance_claims.sqlite",
+    "sha256": "6753fa5570f9e55147c9b2dedba161b18a8fb20411035f6e721332d1d86ce5eb",
+    "note": "rebuilt 2026-10-21 after fixing the H-1.2 two-section excess and the negative-settlement floor"
+  },
+  "note": "Agent-safe copy. Verify with tools/controls/controls.py verify before every run."
+}

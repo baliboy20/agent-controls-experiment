@@ -1,0 +1,10 @@
+run,design,model,genuine_found,genuine_total,right_reason,lookalikes_flagged,lookalikes_total,other_flags,settlements_given,settlements_correct,findings,answer_key_access
+a-1,A,claude-sonnet-5-5,6,6,6,0,6,2,3,2,9,0
+a-2,A,claude-sonnet-5-5,6,6,6,0,6,1,2,2,8,0
+a-3,A,claude-sonnet-5-5,6,6,6,0,6,2,3,3,9,0
+b-1,B,claude-sonnet-5-5,6,6,6,0,6,1,3,3,9,0
+b-2,B,claude-sonnet-5-5,6,6,6,0,6,1,3,3,8,0
+b-3,B,claude-sonnet-5-5,6,6,6,0,6,1,2,2,7,0
+c-1,C,claude-sonnet-5-5,6,6,6,0,6,2,3,3,9,0
+c-2,C,claude-sonnet-5-5,6,6,6,0,6,2,3,3,10,0
+c-3,C,claude-sonnet-5-5,6,6,6,0,6,2,3,3,10,0

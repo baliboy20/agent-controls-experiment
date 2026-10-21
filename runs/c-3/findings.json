@@ -1,0 +1,134 @@
+{
+  "run_id": "c-3",
+  "family_checks": {
+    "F1 Cover period": "Checked all 99. One finding: CLM-0031 (incident 2026-09-05, policy first incepted 2026-09-08). Counterpart applied: CLM-0045 incident 11 Sep falls in the prior period of a renewed policy, so it is covered. CLM-0015/0022/0041/0064 show policy status Cancelled but are total-loss or unrecovered-theft claims settled before cancellation, so no cover-period breach.",
+    "F2 Limits": "Checked all 99 with the calculator. One finding: CLM-0007 (proposed settlement above the contents sum insured). Counterpart applied: CLM-0043 watch 7200 is within its specified value of 7500. All other proposed settlements equal the calculator figure.",
+    "F3 Excess": "Checked all 99 with controls excess and the payments. Findings: CLM-0047 (excess deducted twice) and CLM-0034 (excess refund outstanding after full recovery). Counterparts applied: CLM-0078 buildings and contents carries 100 per section; CLM-0066 excess spread over two payments totals the recorded 500; windscreen repairs carry no excess; non-fault claims with no recovery yet are not due a refund.",
+    "F4 Evidence": "Checked all 99. One finding: CLM-0057 (theft settled with no crime reference or proof of ownership). Counterparts applied: CLM-0069 card statements and photographs accepted under H-6.2; emergency tarpaulin payments on storm claims awaiting evidence are invoiced emergency works, not settlements; CLM-0067 is still open with no payment.",
+    "F5 Supplier invoices": "Checked all 99 with controls invoices and a same-amount screen across suppliers. One issue: CLM-0033 and CLM-0038 (same SUP-17 invoice amount, dates and equipment). Counterpart applied: the other SUP-13 and SUP-17 date overlaps are on different properties with different equipment and amounts.",
+    "F6 Declines": "Checked all 4 declines. One finding: CLM-0020 (decline contradicted by the plumber's report). Supported declines: CLM-0027 (H-2.3 fences), CLM-0054 (H-5.1, report shows months of seepage), CLM-0059 (M-4.1, keys in ignition). All approved by a Team Leader.",
+    "F7 Authority": "Checked all claims with a proposed settlement. Every approver's settlement authority covers the amount, and none is missing. Nothing found.",
+    "F8 Complaints": "Checked all 10 complaints. Findings: CMP-001 on CLM-0020 and CMP-005 on CLM-0001. Timings are within DISP for all and redress was paid on time. CMP-002, 003, 004, 006, 008 and 009 are supported by the wording and records; CMP-007 and CMP-010 are open and within time."
+  },
+  "findings": [
+    {
+      "claim_id": "CLM-0031",
+      "family": "F1 Cover period",
+      "rule_ids": ["R-01"],
+      "clause_ids": ["H-1.1"],
+      "summary": "Incident on 2026-09-05 is before the policy was first incepted (2026-09-08, cover_start the same day); no earlier period exists. The claim records 'Cover confirmed as Active' and proposes 4120. Provisional assessment: not covered.",
+      "recorded_settlement_gbp": 4120.0,
+      "correct_settlement_gbp": null,
+      "recommended_action": "Refer to Claims Validation",
+      "confidence": "High",
+      "checker_status": "Agreed"
+    },
+    {
+      "claim_id": "CLM-0007",
+      "family": "F2 Limits",
+      "rule_ids": ["R-02"],
+      "clause_ids": ["H-4.1"],
+      "summary": "Agreed contents items total 29880 against a contents sum insured of 25000. Proposed 29780 exceeds the limit; the calculator gives 24900 (25000 less 100 excess). 5000 interim already paid; the balance should not exceed the corrected figure.",
+      "recorded_settlement_gbp": 29780.0,
+      "correct_settlement_gbp": 24900.0,
+      "recommended_action": "Recalculate settlement",
+      "confidence": "High",
+      "checker_status": "Agreed"
+    },
+    {
+      "claim_id": "CLM-0047",
+      "family": "F3 Excess",
+      "rule_ids": ["R-03"],
+      "clause_ids": ["H-1.2"],
+      "summary": "Excess of 350 was deducted from both the interim (CPY-0024) and final (CPY-0088) payments: 700 deducted against 350 recorded. Net paid 4040 against 4390 due, so the policyholder is 350 short.",
+      "recorded_settlement_gbp": 4390.0,
+      "correct_settlement_gbp": 4390.0,
+      "recommended_action": "Recalculate settlement",
+      "confidence": "High",
+      "checker_status": "Agreed"
+    },
+    {
+      "claim_id": "CLM-0034",
+      "family": "F3 Excess",
+      "rule_ids": ["R-03"],
+      "clause_ids": ["M-1.2"],
+      "summary": "Non-fault claim. The third-party insurer paid 2578.34 in full on 2026-10-15, but no refund of the 500 excess appears in the payments.",
+      "recorded_settlement_gbp": 2078.34,
+      "correct_settlement_gbp": 2078.34,
+      "recommended_action": "Other",
+      "confidence": "Medium",
+      "checker_status": "Agreed"
+    },
+    {
+      "claim_id": "CLM-0057",
+      "family": "F4 Evidence",
+      "rule_ids": ["R-04"],
+      "clause_ids": ["H-6.1", "H-6.2"],
+      "summary": "Theft claim paid 4048 while evidence_status is Insufficient: no crime reference, and no proof of ownership for laptop (1849), phone (1099) or gold chain (1200). Notes say it was settled to meet the 10-day target.",
+      "recorded_settlement_gbp": 4048.0,
+      "correct_settlement_gbp": null,
+      "recommended_action": "Obtain evidence",
+      "confidence": "High",
+      "checker_status": "Agreed"
+    },
+    {
+      "claim_id": "CLM-0038",
+      "related_claim_ids": ["CLM-0033"],
+      "family": "F5 Supplier invoices",
+      "rule_ids": ["R-05"],
+      "summary": "SUP-17 invoice DRN-08562/2 matches DRN-08562 on CLM-0033: same 2184.00, same dates (12-18 Sep), same equipment, different property. Both paid (CPY-0087, CPY-0107). Likely the same work charged twice.",
+      "recorded_settlement_gbp": 5819.5,
+      "correct_settlement_gbp": null,
+      "recommended_action": "Refer to Claims Validation",
+      "confidence": "High",
+      "checker_status": "Agreed"
+    },
+    {
+      "claim_id": "CLM-0033",
+      "related_claim_ids": ["CLM-0038"],
+      "family": "F5 Supplier invoices",
+      "rule_ids": ["R-05"],
+      "summary": "SUP-17 invoice DRN-08562 (2184.00, 12-18 Sep) matches DRN-08562/2 on CLM-0038 in amount, dates and equipment. Paid under CPY-0107 on 2026-10-12. Refer with CLM-0038 before further payment.",
+      "recorded_settlement_gbp": 5204.0,
+      "correct_settlement_gbp": null,
+      "recommended_action": "Refer to Claims Validation",
+      "confidence": "High",
+      "checker_status": "Agreed"
+    },
+    {
+      "claim_id": "CLM-0020",
+      "family": "F6 Declines",
+      "rule_ids": ["R-06"],
+      "clause_ids": ["H-5.1", "H-2.2"],
+      "summary": "Declined under H-5.1 as wear and tear, but plumber's report PS-R0468 records a sudden hose failure with the base and floor dry and sound beforehand. That points to escape of water (H-2.2), contradicting the clause. Provisional assessment: decline not supported.",
+      "recorded_settlement_gbp": null,
+      "correct_settlement_gbp": null,
+      "recommended_action": "Review decline",
+      "confidence": "High",
+      "checker_status": "Agreed"
+    },
+    {
+      "claim_id": "CLM-0020",
+      "family": "F8 Complaints",
+      "rule_ids": ["R-08", "R-06"],
+      "clause_ids": ["H-5.1", "H-2.2"],
+      "summary": "CMP-001 was not upheld on the same H-5.1 reasoning, without weighing the plumber's report of a sudden failure. Timing is within DISP (16 days) but the outcome is not supported by the evidence.",
+      "recorded_settlement_gbp": null,
+      "correct_settlement_gbp": null,
+      "recommended_action": "Review complaint",
+      "confidence": "High",
+      "checker_status": "Agreed"
+    },
+    {
+      "claim_id": "CLM-0001",
+      "family": "F8 Complaints",
+      "rule_ids": ["R-08"],
+      "summary": "CMP-005 was upheld with 100 redress (CPY-0094) because a courtesy car 'should have been provided under the policy', but POL-0035 has no courtesy car cover and the motor wording has no such clause. The outcome relies on cover the policy lacks.",
+      "recorded_settlement_gbp": 1988.26,
+      "correct_settlement_gbp": 1988.26,
+      "recommended_action": "Review complaint",
+      "confidence": "Medium",
+      "checker_status": "Agreed"
+    }
+  ]
+}

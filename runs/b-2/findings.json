@@ -1,0 +1,111 @@
+{
+  "run_id": "b-2",
+  "findings": [
+    {
+      "claim_id": "CLM-0007",
+      "family": "F2 Limits",
+      "rule_ids": ["R-02"],
+      "clause_ids": ["H-4.1"],
+      "summary": "Proposed settlement £29,780.00 exceeds the Contents sum insured of £25,000 less £100 excess. The calculator gives £24,900.00. £5,000 gross has already been paid as an interim payment.",
+      "recorded_settlement_gbp": 29780.0,
+      "correct_settlement_gbp": 24900.0,
+      "recommended_action": "Recalculate settlement",
+      "confidence": "High",
+      "checker_status": "Agreed"
+    },
+    {
+      "claim_id": "CLM-0031",
+      "family": "F1 Cover period",
+      "rule_ids": ["R-01"],
+      "clause_ids": ["H-1.1"],
+      "summary": "Incident 2026-09-05 is before the policy was first incepted (2026-09-08), and cover_start is the same date, so no earlier period applies. 'Cover confirmed as Active' reflects status only. Settlement of £4,120 is agreed but should not proceed.",
+      "recorded_settlement_gbp": 4120.0,
+      "correct_settlement_gbp": null,
+      "recommended_action": "Refer to Claims Validation",
+      "confidence": "High",
+      "checker_status": "Agreed"
+    },
+    {
+      "claim_id": "CLM-0047",
+      "family": "F3 Excess",
+      "rule_ids": ["R-03"],
+      "clause_ids": ["H-1.2"],
+      "summary": "Excess recorded as £350 but £700 was deducted across two payments (£350 from the interim and £350 from the final). The policyholder was paid £4,040 net against a correct £4,390, so is underpaid by £350.",
+      "recorded_settlement_gbp": 4390.0,
+      "correct_settlement_gbp": 4390.0,
+      "recommended_action": "Recalculate settlement",
+      "confidence": "High",
+      "checker_status": "Agreed"
+    },
+    {
+      "claim_id": "CLM-0034",
+      "family": "F3 Excess",
+      "rule_ids": ["R-03"],
+      "clause_ids": ["M-1.2"],
+      "summary": "Non-fault collision. The other insurer paid in full (£2,578.34 recovery received 2026-10-15) but no excess refund of £500 has been paid to the policyholder. Comparable claims CLM-0004, 0024 and 0025 were refunded.",
+      "recorded_settlement_gbp": 2078.34,
+      "correct_settlement_gbp": 2078.34,
+      "recommended_action": "Other",
+      "confidence": "High",
+      "checker_status": "Agreed"
+    },
+    {
+      "claim_id": "CLM-0057",
+      "family": "F4 Evidence",
+      "rule_ids": ["R-04"],
+      "clause_ids": ["H-6.1", "H-6.2"],
+      "summary": "Theft claim paid in full (£4,048 net) with evidence_status Insufficient: no crime reference, and no receipt, statement or photograph for the laptop, phone or gold chain, each over £500. Decision note says it was settled to meet a timing target. No acceptable proof of ownership exists to rely on.",
+      "recorded_settlement_gbp": 4048.0,
+      "correct_settlement_gbp": null,
+      "recommended_action": "Obtain evidence",
+      "confidence": "High",
+      "checker_status": "Agreed"
+    },
+    {
+      "claim_id": "CLM-0038",
+      "related_claim_ids": ["CLM-0033"],
+      "family": "F5 Supplier invoices",
+      "rule_ids": ["R-05"],
+      "summary": "SUP-17 drying invoice DRN-08562/2 (CLM-0038, £2,184.00, 12-18 Sep) matches DRN-08562 on CLM-0033 in amount, dates and description (3 dehumidifiers, 2 air movers, 7 days). Both paid (CLM-0038 on 10-07, CLM-0033 on 10-12, the later one). Possible duplicate of £2,184.00; different postcodes do not explain identical dates and wording.",
+      "recorded_settlement_gbp": 5819.5,
+      "correct_settlement_gbp": null,
+      "recommended_action": "Refer to Claims Validation",
+      "confidence": "Medium",
+      "checker_status": "Agreed"
+    },
+    {
+      "claim_id": "CLM-0020",
+      "family": "F6 Declines",
+      "rule_ids": ["R-06"],
+      "clause_ids": ["H-5.1", "H-2.2"],
+      "summary": "Declined under H-5.1 (wear and tear) but the plumber's report on file says the tap hose burst suddenly, with a dry, sound cabinet base and floor beforehand. The evidence contradicts the clause; this is a sudden escape of water under H-2.2. Under R-06 the claim should be accepted.",
+      "recorded_settlement_gbp": null,
+      "correct_settlement_gbp": null,
+      "recommended_action": "Review decline",
+      "confidence": "High",
+      "checker_status": "Agreed"
+    },
+    {
+      "claim_id": "CLM-0020",
+      "family": "F8 Complaints",
+      "rule_ids": ["R-08", "R-06"],
+      "clause_ids": ["H-5.1"],
+      "summary": "Complaint CMP-001 (final response 2026-10-02, within time) was not upheld by repeating the original H-5.1 reasoning. It did not address the plumber's report that the failure was sudden. R-08 requires review against the wording and evidence. Timing complied.",
+      "recorded_settlement_gbp": null,
+      "correct_settlement_gbp": null,
+      "recommended_action": "Review complaint",
+      "confidence": "High",
+      "checker_status": "Agreed"
+    }
+  ],
+  "family_checks": [
+    {"family": "F1 Cover period", "claims_checked": 99, "result": "1 finding (CLM-0031). Counterpart checked: CLM with incident on 11 Sept in a policy period ending 13 Sept is covered by the earlier period under M-1.1, so not flagged. No other incident falls before first_incepted or after cover_end."},
+    {"family": "F2 Limits", "claims_checked": 99, "result": "1 finding (CLM-0007). Calculator run for every claim; all other recorded settlements match. Specified-item watch at £7,500 is the legitimate counterpart and matches the calculator."},
+    {"family": "F3 Excess", "claims_checked": 99, "result": "2 findings (CLM-0047, CLM-0034). Recorded excess type matches policy for all 99 claims. Counterparts not flagged: CLM-0066 (£360.50 + £139.50 = £500), CLM-0078 (Buildings and Contents, £100 per section), CLM-0017 (settlement nil, excess takes the whole payment), windscreen repair £0. CLM-0042, 0056, 0061, 0072 are non-fault with no recovery received yet, so no refund is due."},
+    {"family": "F4 Evidence", "claims_checked": 99, "result": "1 finding (CLM-0057). Not flagged: CLM-0067 and CLM-0028 (no settlement proposed, awaiting evidence), storm claims with small emergency supplier payments while evidence is awaited (a reserve, not a settlement), and the claim accepted on card statements and photographs under H-6.2. Every other theft and malicious damage claim holds a crime reference."},
+    {"family": "F5 Supplier invoices", "claims_checked": 99, "result": "1 finding (CLM-0038 with CLM-0033). Controls screened 736 supplier pairs. Overlapping drying dates for SUP-13 and SUP-17 across other claims have different amounts, documents and properties, so they are the legitimate counterpart and were not flagged."},
+    {"family": "F6 Declines", "claims_checked": 99, "result": "1 finding (CLM-0020). Not flagged: CLM-0027 (fence, H-2.3 expressly excludes), CLM-0054 (plumber's report shows months of seepage, H-5.1), CLM-0059 (engine running, keys in car per police report, M-4.1). All four declines approved by a Team Leader."},
+    {"family": "F7 Authority", "claims_checked": 99, "result": "No findings. Every proposed settlement is within its approver's authority, including CLM-0007 (£29,780 approved by a Claims Manager)."},
+    {"family": "F8 Complaints", "claims_checked": 10, "result": "1 finding (CLM-0020 / CMP-001). CMP-002 summary resolution after 1 day is valid. No final response was later than 8 weeks and redress was paid within 10 working days. CMP-007 and CMP-010 are open within their limits."}
+  ]
+}

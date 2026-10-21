@@ -1,0 +1,40 @@
+{
+  "row": {
+    "run": "a-1",
+    "design": "A",
+    "model": "claude-sonnet-5-5",
+    "genuine_found": 6,
+    "genuine_total": 6,
+    "right_reason": 6,
+    "lookalikes_flagged": 0,
+    "lookalikes_total": 6,
+    "other_flags": 2,
+    "settlements_given": 3,
+    "settlements_correct": 2,
+    "findings": 9,
+    "answer_key_access": 0
+  },
+  "found": [
+    "CASE-01",
+    "CASE-03",
+    "CASE-05",
+    "CASE-07",
+    "CASE-09",
+    "CASE-11"
+  ],
+  "missed": [],
+  "wrong_reason": [],
+  "lookalikes_flagged": [],
+  "other_flags": [
+    "CLM-0001",
+    "CLM-0034"
+  ],
+  "answer_key_access": [],
+  "settlement_errors": [
+    {
+      "claim_id": "CLM-0034",
+      "given": 2578.34,
+      "calculator": 2078.34
+    }
+  ]
+}

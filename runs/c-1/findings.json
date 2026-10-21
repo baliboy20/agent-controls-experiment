@@ -1,0 +1,122 @@
+{
+  "run_id": "c-1",
+  "family_checks": {
+    "F1 Cover period": "Checked all 99 claims against first_incepted, cover_start and cover_end. CLM-0031 incident precedes first_incepted (finding). CLM-0045 incident falls in the earlier period of a renewed policy: legitimate, not flagged.",
+    "F2 Limits": "Calculator run for every claim with agreed items and compared with proposed_settlement_gbp. One mismatch: CLM-0007 (finding). CLM-0043 specified watch at its specified value: legitimate. Other differences were open claims with partial payments only.",
+    "F3 Excess": "controls.py excess run plus recorded-excess vs policy check and non-fault refund review. CLM-0047 excess taken twice (finding). CLM-0034 refund missing after full recovery (finding). CLM-0066 and CLM-0078 reconcile to recorded excess (split across first payments; per-section excess): legitimate. CLM-0042, CLM-0056, CLM-0061, CLM-0072 not yet recovered: no refund due.",
+    "F4 Evidence": "Checked evidence_status, crime references for theft and malicious damage, and items over 500 pounds without proof. CLM-0057 settled and paid with Insufficient evidence (finding). Open Partial or Insufficient claims have no settlement proposed; emergency tarpaulin invoices on CLM-0084, 0087, 0089, 0092, 0096, 0098 are make-safe payments with permanent repairs unpaid: not flagged.",
+    "F5 Supplier invoices": "controls.py invoices screen reviewed (18 pairs). CLM-0033 and CLM-0038 duplicate SUP-17 invoice (finding). SUP-13 and SUP-17 date overlaps on other claims are different properties with distinct amounts and equipment: legitimate.",
+    "F6 Declines": "All 4 declines and 2 withdrawals reviewed. CLM-0020 decline contradicted by plumber's report (finding). CLM-0054 (H-5.1), CLM-0027 (H-2.3) and CLM-0059 (M-4.1) are supported by the evidence and approved by a Team Leader. Withdrawals are policyholder-initiated.",
+    "F7 Authority": "Compared approver settlement authority with proposed settlement on every claim with an approver. No approver is below the settlement amount. Nothing found. CLM-0007 is within STF-02 authority even at the recorded figure; its issue is F2.",
+    "F8 Complaints": "All 10 complaints reviewed for timing, redress timing and outcome support. CMP-001 (CLM-0020) and CMP-005 (CLM-0001) rely on facts the records contradict (findings). CMP-002, 003, 004, 006, 008, 009 compliant and supported; CMP-007 and CMP-010 open within time."
+  },
+  "findings": [
+    {
+      "claim_id": "CLM-0031",
+      "family": "F1 Cover period",
+      "rule_ids": ["R-01"],
+      "clause_ids": ["H-1.1"],
+      "summary": "Incident 2026-09-05 is before the policy was first taken out (first_incepted 2026-09-08) and no earlier period exists, so it appears outside cover. Policy status Active does not show this. A settlement of 4,120.00 is proposed. Provisional assessment only.",
+      "recorded_settlement_gbp": 4120.0,
+      "correct_settlement_gbp": null,
+      "recommended_action": "Refer to Claims Validation",
+      "confidence": "High",
+      "checker_status": "Agreed"
+    },
+    {
+      "claim_id": "CLM-0007",
+      "family": "F2 Limits",
+      "rule_ids": ["R-02"],
+      "clause_ids": ["H-4.1"],
+      "summary": "Proposed settlement 29,780.00 exceeds the 25,000 contents sum insured. Calculator gives 24,900.00 (cap less 100 excess), no valuables or specified items. 5,000 interim already paid.",
+      "recorded_settlement_gbp": 29780.0,
+      "correct_settlement_gbp": 24900.0,
+      "recommended_action": "Recalculate settlement",
+      "confidence": "High",
+      "checker_status": "Agreed"
+    },
+    {
+      "claim_id": "CLM-0047",
+      "family": "F3 Excess",
+      "rule_ids": ["R-03"],
+      "clause_ids": ["H-1.2"],
+      "summary": "Recorded excess 350.00 was deducted from both the interim (CPY-0024) and final (CPY-0088) payments, 700.00 in total. Net paid 4,040.00 against 4,390.00 due, so the policyholder appears short by 350.00.",
+      "recorded_settlement_gbp": 4390.0,
+      "correct_settlement_gbp": 4390.0,
+      "recommended_action": "Recalculate settlement",
+      "confidence": "High",
+      "checker_status": "Agreed"
+    },
+    {
+      "claim_id": "CLM-0034",
+      "family": "F3 Excess",
+      "rule_ids": ["R-03"],
+      "clause_ids": ["M-1.2"],
+      "summary": "Non-fault motor claim: the third-party insurer paid the full 2,578.34 on 2026-10-15 but no 500.00 excess refund has been made to the policyholder.",
+      "recorded_settlement_gbp": 2078.34,
+      "correct_settlement_gbp": 2078.34,
+      "recommended_action": "Other",
+      "confidence": "High",
+      "checker_status": "Agreed"
+    },
+    {
+      "claim_id": "CLM-0057",
+      "family": "F4 Evidence",
+      "rule_ids": ["R-04"],
+      "clause_ids": ["H-6.1", "H-6.2"],
+      "summary": "Theft settled and paid (4,148.00 gross) with evidence Insufficient: no crime reference and no proof of ownership for laptop, phone or gold chain, each over 500. Decision note cites a speed target. Provisional assessment only.",
+      "recorded_settlement_gbp": 4048.0,
+      "correct_settlement_gbp": null,
+      "recommended_action": "Obtain evidence",
+      "confidence": "High",
+      "checker_status": "Agreed"
+    },
+    {
+      "claim_id": "CLM-0038",
+      "related_claim_ids": ["CLM-0033"],
+      "family": "F5 Supplier invoices",
+      "rule_ids": ["R-05"],
+      "summary": "SUP-17 drying invoices DRN-08562 (CLM-0033) and DRN-08562/2 (CLM-0038) are both 2,184.00 with identical dates (12-18 Sep) and description, at different addresses. Both paid in full; one looks duplicated.",
+      "recorded_settlement_gbp": 5819.5,
+      "correct_settlement_gbp": null,
+      "recommended_action": "Refer to Claims Validation",
+      "confidence": "Medium",
+      "checker_status": "Agreed"
+    },
+    {
+      "claim_id": "CLM-0020",
+      "family": "F6 Declines",
+      "rule_ids": ["R-06"],
+      "clause_ids": ["H-5.1", "H-2.2"],
+      "summary": "Declined as wear and tear (H-5.1) but the plumber's report (CI-0032) records a sudden hose burst with the floor and base dry and sound beforehand, which fits H-2.2. Evidence contradicts the decline clause.",
+      "recorded_settlement_gbp": null,
+      "correct_settlement_gbp": null,
+      "recommended_action": "Review decline",
+      "confidence": "High",
+      "checker_status": "Agreed"
+    },
+    {
+      "claim_id": "CLM-0020",
+      "family": "F8 Complaints",
+      "rule_ids": ["R-08"],
+      "clause_ids": ["H-5.1", "H-2.2"],
+      "summary": "Complaint CMP-001 was not upheld on H-5.1 wear and tear, but the plumber's report on file contradicts that. Timing was compliant (12 days); the outcome is not supported by the evidence.",
+      "recorded_settlement_gbp": null,
+      "correct_settlement_gbp": null,
+      "recommended_action": "Review complaint",
+      "confidence": "High",
+      "checker_status": "Agreed"
+    },
+    {
+      "claim_id": "CLM-0001",
+      "family": "F8 Complaints",
+      "rule_ids": ["R-08"],
+      "summary": "Complaint CMP-005 was upheld because the policy 'includes' a courtesy car, but POL-0035 has no optional covers. Outcome relies on cover the policy lacks, not on service grounds; 100.00 redress already paid.",
+      "recorded_settlement_gbp": 1988.26,
+      "correct_settlement_gbp": 1988.26,
+      "recommended_action": "Review complaint",
+      "confidence": "Medium",
+      "checker_status": "Agreed"
+    }
+  ]
+}

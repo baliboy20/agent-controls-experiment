@@ -1,0 +1,112 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Claims review findings",
+  "type": "object",
+  "required": [
+    "run_id",
+    "findings"
+  ],
+  "properties": {
+    "run_id": {
+      "type": "string"
+    },
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "claim_id",
+          "family",
+          "rule_ids",
+          "summary",
+          "recommended_action"
+        ],
+        "properties": {
+          "claim_id": {
+            "type": "string",
+            "pattern": "^CLM-"
+          },
+          "related_claim_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "family": {
+            "type": "string",
+            "enum": [
+              "F1 Cover period",
+              "F2 Limits",
+              "F3 Excess",
+              "F4 Evidence",
+              "F5 Supplier invoices",
+              "F6 Declines",
+              "F7 Authority",
+              "F8 Complaints",
+              "Other"
+            ]
+          },
+          "rule_ids": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "pattern": "^R-0[1-8]$"
+            }
+          },
+          "clause_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "summary": {
+            "type": "string",
+            "maxLength": 400
+          },
+          "recorded_settlement_gbp": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "correct_settlement_gbp": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "recommended_action": {
+            "type": "string",
+            "enum": [
+              "Refer to Claims Validation",
+              "Recalculate settlement",
+              "Recover overpayment",
+              "Obtain evidence",
+              "Review decline",
+              "Obtain approval",
+              "Review complaint",
+              "Other"
+            ]
+          },
+          "confidence": {
+            "type": "string",
+            "enum": [
+              "High",
+              "Medium",
+              "Low"
+            ]
+          },
+          "checker_status": {
+            "type": "string",
+            "enum": [
+              "Agreed",
+              "Disputed",
+              "Not checked"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

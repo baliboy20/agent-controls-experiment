@@ -1,0 +1,135 @@
+{
+  "run_id": "claims-review-2026-09",
+  "findings": [
+    {
+      "claim_id": "CLM-0007",
+      "family": "F2 Limits",
+      "rule_ids": ["R-02", "R-07"],
+      "clause_ids": ["H-4.1", "H-1.2"],
+      "summary": "Contents fire. Agreed items total 29,880 but the contents sum insured is 25,000. Proposed 29,780 exceeds the limit; calculator gives 24,900 after the £100 excess. Not a specified-item case. Provisional assessment only.",
+      "recorded_settlement_gbp": 29780.0,
+      "correct_settlement_gbp": 24900.0,
+      "recommended_action": "Recalculate settlement",
+      "confidence": "High",
+      "checker_status": "Agreed"
+    },
+    {
+      "claim_id": "CLM-0031",
+      "family": "F1 Cover period",
+      "rule_ids": ["R-01"],
+      "clause_ids": ["H-1.1"],
+      "summary": "Escape of water on 2026-09-05, but policy POL-0099 was first incepted on 2026-09-08. Incident precedes inception and is not an earlier renewal period. Settlement of 4,120 agreed with status Active recorded; refer before any payment.",
+      "recorded_settlement_gbp": 4120.0,
+      "correct_settlement_gbp": null,
+      "recommended_action": "Refer to Claims Validation",
+      "confidence": "High",
+      "checker_status": "Agreed"
+    },
+    {
+      "claim_id": "CLM-0034",
+      "family": "F3 Excess",
+      "rule_ids": ["R-03"],
+      "clause_ids": ["M-1.2"],
+      "summary": "Non-fault motor claim. Third-party insurer paid the full 2,578.34 on 2026-10-15, but no refund of the £500 excess is recorded. Comparable claims (0004, 0024, 0025) were refunded within 2-4 days, so confirm the refund is issued.",
+      "recorded_settlement_gbp": 2078.34,
+      "correct_settlement_gbp": 2078.34,
+      "recommended_action": "Other",
+      "confidence": "Medium",
+      "checker_status": "Agreed"
+    },
+    {
+      "claim_id": "CLM-0038",
+      "related_claim_ids": ["CLM-0033"],
+      "family": "F5 Supplier invoices",
+      "rule_ids": ["R-05"],
+      "summary": "SUP-17 drying invoice DRN-08562/2 on this claim matches DRN-08562 on CLM-0033: same 2,184.00, same dates 12-18 Sept, same description, different addresses. Probable duplicate charge; both already paid. Not distinct work at different properties.",
+      "recorded_settlement_gbp": 5819.5,
+      "correct_settlement_gbp": null,
+      "recommended_action": "Refer to Claims Validation",
+      "confidence": "Medium",
+      "checker_status": "Agreed"
+    },
+    {
+      "claim_id": "CLM-0033",
+      "related_claim_ids": ["CLM-0038"],
+      "family": "F5 Supplier invoices",
+      "rule_ids": ["R-05"],
+      "summary": "SUP-17 drying invoice DRN-08562 (2,184.00, 12-18 Sept) is matched by DRN-08562/2 on CLM-0038 with identical amount, dates and description. Probable duplicate; paid 2026-10-12. Validation to decide which claim the work belongs to.",
+      "recorded_settlement_gbp": 5204.0,
+      "correct_settlement_gbp": null,
+      "recommended_action": "Refer to Claims Validation",
+      "confidence": "Medium",
+      "checker_status": "Agreed"
+    },
+    {
+      "claim_id": "CLM-0047",
+      "family": "F3 Excess",
+      "rule_ids": ["R-03"],
+      "clause_ids": ["H-1.2"],
+      "summary": "Escape of water excess £350 was deducted from both the interim (1,500) and final (3,240) payments: 700 deducted. Net paid 4,040 against correct 4,390 per calculator; policyholder underpaid by £350. Buildings only, so no second-section excess.",
+      "recorded_settlement_gbp": 4040.0,
+      "correct_settlement_gbp": 4390.0,
+      "recommended_action": "Recalculate settlement",
+      "confidence": "High",
+      "checker_status": "Agreed"
+    },
+    {
+      "claim_id": "CLM-0057",
+      "family": "F4 Evidence",
+      "rule_ids": ["R-04"],
+      "clause_ids": ["H-6.1", "H-6.2"],
+      "summary": "Contents theft paid 4,048 while evidence_status is Insufficient: no crime reference and no proof of ownership or value for laptop (1,849), phone (1,099) or gold chain (1,200). Notes say settled to meet the 10-day target.",
+      "recorded_settlement_gbp": 4048.0,
+      "correct_settlement_gbp": null,
+      "recommended_action": "Obtain evidence",
+      "confidence": "High",
+      "checker_status": "Agreed"
+    },
+    {
+      "claim_id": "CLM-0020",
+      "family": "F6 Declines",
+      "rule_ids": ["R-06"],
+      "clause_ids": ["H-5.1", "H-2.2"],
+      "summary": "Declined under H-5.1 (wear and tear), but the plumber's report states sudden failure of the tap hose and a dry, sound cabinet base and floor beforehand. Evidence contradicts the clause; R-06 says the claim is then accepted. Review decline.",
+      "recorded_settlement_gbp": null,
+      "correct_settlement_gbp": null,
+      "recommended_action": "Review decline",
+      "confidence": "High",
+      "checker_status": "Agreed"
+    },
+    {
+      "claim_id": "CLM-0020",
+      "family": "F8 Complaints",
+      "rule_ids": ["R-08"],
+      "clause_ids": ["H-5.1"],
+      "summary": "Complaint CMP-001 was not upheld on the basis that any leak under a sink is wear and tear. The plumber's report on the claim contradicts that, so the outcome was not reviewed against the evidence. Timing was within DISP limits.",
+      "recorded_settlement_gbp": null,
+      "correct_settlement_gbp": null,
+      "recommended_action": "Review complaint",
+      "confidence": "High",
+      "checker_status": "Agreed"
+    },
+    {
+      "claim_id": "CLM-0001",
+      "family": "F8 Complaints",
+      "rule_ids": ["R-08"],
+      "summary": "Complaint CMP-005 upheld because a courtesy car 'should have been provided under the policy', but POL-0035 has no courtesy car optional cover. £100 redress paid partly on cover the policy lacks. Could be re-based on service grounds only.",
+      "recorded_settlement_gbp": 1988.26,
+      "correct_settlement_gbp": 1988.26,
+      "recommended_action": "Review complaint",
+      "confidence": "Medium",
+      "checker_status": "Agreed"
+    }
+  ],
+  "family_checks": [
+    {"family": "F1 Cover period", "claims_checked": 99, "result": "1 finding (CLM-0031). Counterpart: CLM-0045 incident 2026-09-11 falls in the renewed policy's earlier period, so covered. Four policies recorded Cancelled (0015, 0022, 0041, 0064) are all settled total losses; no cancellation date held, not treated as a cover failure."},
+    {"family": "F2 Limits", "claims_checked": 99, "result": "1 finding (CLM-0007). Calculator run on every claim with agreed items; all other proposals match. Counterpart: CLM-0043 watch specified at £7,500 is allowed above the £2,000 single article limit."},
+    {"family": "F3 Excess", "claims_checked": 99, "result": "2 findings (CLM-0047, CLM-0034). Controls excess screen reviewed: CLM-0066 (500 split across two payments), CLM-0078 (200, one per section) and windscreen repairs are legitimate."},
+    {"family": "F4 Evidence", "claims_checked": 99, "result": "1 finding (CLM-0057). Counterpart: CLM-0069 proof by card statement and photographs is acceptable; open claims awaiting evidence have no settlement proposed."},
+    {"family": "F5 Supplier invoices", "claims_checked": 99, "result": "1 pair (CLM-0033/CLM-0038). Controls screen showed 19 pairs; the other SUP-13 and SUP-17 date overlaps have different amounts, descriptions and properties, the legitimate counterpart."},
+    {"family": "F6 Declines", "claims_checked": 4, "result": "1 finding (CLM-0020). CLM-0027 (fence, H-2.3), CLM-0054 (gradual seepage per report, H-5.1) and CLM-0059 (keys in ignition, M-4.1) are supported by the evidence. All declines approved by a Team Leader."},
+    {"family": "F7 Authority", "claims_checked": 99, "result": "No findings. No approver's authority is below the proposed settlement."},
+    {"family": "F8 Complaints", "claims_checked": 10, "result": "2 findings (CLM-0020, CLM-0001). Others are within DISP time limits and supported: CMP-004 and CMP-009 upheld on service or communication grounds; CMP-005 and CMP-001 flagged; CMP-006, 003, 008 not upheld on supported grounds; CMP-007 and 010 still open within limits."}
+  ],
+  "notes": "All findings are provisional assessments for a claims handler; none states a claim is approved, declined or paid. The checker's first run was refused Bash and returned no verdicts; the second run reran the database queries and calculator and agreed all nine findings."
+}
