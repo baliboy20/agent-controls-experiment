@@ -39,6 +39,7 @@ Nine runs on one synthetic dataset with one model show where controls change beh
 | `runs/` | Each run's `findings.json`, `log.jsonl`, `run.json` and `transcript.json` |
 | `scoring/` | Scoring script and results |
 | `make_workspace.py` | Builds an isolated workspace and `run.sh` for one run |
+| `checker_test/` | Follow-up: plants mistakes in a real findings file and runs the checker on them (see below) |
 
 Paths in the logs and transcripts are shortened to `<workspace>`, `<agent-scratch>` and `<agent-session>`, and session IDs to `<session-id>`.
 
@@ -70,3 +71,19 @@ The runs used the insurance claims dataset after two fixes to its generator: a c
 ## Licence
 
 Code is MIT ([`LICENSE`](LICENSE)). Data, documents and run outputs are CC BY 4.0 ([`LICENSE-DATA.md`](LICENSE-DATA.md)), derived from the [Synthetic UK financial-services study datasets](https://github.com/baliboy20/claude-study-datasets), © 2026 William Paulton.
+
+## Follow-up: testing the checker
+
+In runs B1–C3 the `claims-checker` sub-agent agreed with every finding, but it was never shown a mistake, and the logs show its Bash calls were denied (sub-agents did not inherit the `--allowedTools` list), so it reviewed from record extracts the main agent prepared rather than from the database. Two changes address this:
+
+- `agents/run-b-controlled/.claude/settings.json` now grants sub-agents Read and `python3`/`sqlite3` Bash in `permissions.allow`, so the checker can open `claims.sqlite` and rerun the calculator itself. Rerun the controlled design (`python3 make_workspace.py c-4` etc.) to confirm from the logs.
+- `checker_test/` tests the checker directly with planted mistakes:
+
+```bash
+python3 checker_test/inject.py runs/c-1/findings.json checker_test/planted   # 7 mistakes to dispute, 1 removed finding, 3 genuine controls
+MODEL=claude-sonnet-5-5 checker_test/run_checker.sh chk-1                      # repeat as chk-2, chk-3
+python3 checker_test/score_checker.py checker_test/planted/manifest.json runs/c-chk-*/checker_verdicts.txt
+```
+
+The planted mistakes are a wrong clause, a wrong rule, two wrong settlement figures, a wrong related claim, and two legitimate counterparts flagged as problems; one genuine finding is removed to see whether the checker notices (it is told not to add findings). The data is never altered, so every planted mistake is unambiguously wrong against `claims.sqlite` and the wording. `manifest.json` records what changed and what a careful checker should say.
+

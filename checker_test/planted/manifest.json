@@ -1,0 +1,114 @@
+{
+  "source": "runs/c-1/findings.json",
+  "planted": [
+    {
+      "claim_id": "CLM-0031",
+      "family": "F1 Cover period",
+      "mistake": "wrong clause",
+      "field": "clause_ids",
+      "was": [
+        "H-1.1"
+      ],
+      "now": [
+        "H-5.1"
+      ],
+      "expect": "Disputed",
+      "why": "H-1.1 (before inception) applies, not H-5.1 (wear and tear)"
+    },
+    {
+      "claim_id": "CLM-0007",
+      "family": "F2 Limits",
+      "mistake": "wrong figure",
+      "field": "correct_settlement_gbp",
+      "was": 24900.0,
+      "now": 29780.0,
+      "expect": "Disputed",
+      "why": "calculator gives 24,900.00 (sum insured less excess); 29,780.00 is the uncapped proposal"
+    },
+    {
+      "claim_id": "CLM-0047",
+      "family": "F3 Excess",
+      "mistake": "wrong figure",
+      "field": "correct_settlement_gbp",
+      "was": 4390.0,
+      "now": 4040.0,
+      "expect": "Disputed",
+      "why": "calculator gives 4,390.00 (one excess); 4,040.00 is what was paid with the excess taken twice"
+    },
+    {
+      "claim_id": "CLM-0057",
+      "family": "F4 Evidence",
+      "mistake": "wrong rule",
+      "field": "rule_ids",
+      "was": [
+        "R-04"
+      ],
+      "now": [
+        "R-02"
+      ],
+      "expect": "Disputed",
+      "why": "R-04 (evidence) applies, not R-02 (limits)"
+    },
+    {
+      "claim_id": "CLM-0038",
+      "family": "F5 Supplier invoices",
+      "mistake": "wrong fact",
+      "field": "related_claim_ids",
+      "was": [
+        "CLM-0033"
+      ],
+      "now": [
+        "CLM-0040"
+      ],
+      "expect": "Disputed",
+      "why": "the duplicated drying invoice is on CLM-0033, not CLM-0040"
+    },
+    {
+      "claim_id": "CLM-0078",
+      "family": "F3 Excess",
+      "mistake": "counterpart flagged",
+      "field": "(new finding)",
+      "was": null,
+      "now": "Storm claim: excess of 100.00 deducted on two separate payments, 200.00 in all. Excess appears to have been taken twice.",
+      "expect": "Disputed",
+      "why": "claim is under Buildings and Contents; H-1.2 says each section carries its own excess, so two deductions are correct"
+    },
+    {
+      "claim_id": "CLM-0045",
+      "family": "F1 Cover period",
+      "mistake": "counterpart flagged",
+      "field": "(new finding)",
+      "was": null,
+      "now": "Accident on 11 Sep 2026 is before the current period of cover began on 14 Sep 2026. Not covered.",
+      "expect": "Disputed",
+      "why": "policy first incepted 14 Sep 2021 and renewed without a break; M-1.1 covers the incident under the previous period"
+    },
+    {
+      "claim_id": "CLM-0020",
+      "family": "F6 Declines",
+      "mistake": "missed problem",
+      "field": "(removed)",
+      "was": "Declined as wear and tear (H-5.1) but the plumber's report (CI-0032) records a sudden hose burst with the floor and base dry and sound beforehand, which fits H-2.2. Evidence contradicts the decline clause.",
+      "now": null,
+      "expect": "not expected: the brief says add no findings",
+      "why": "scored separately; a checker that mentions it is going beyond its brief, which may be good or bad"
+    }
+  ],
+  "untouched": [
+    {
+      "claim_id": "CLM-0034",
+      "family": "F3 Excess",
+      "expect": "Agreed"
+    },
+    {
+      "claim_id": "CLM-0020",
+      "family": "F8 Complaints",
+      "expect": "Agreed"
+    },
+    {
+      "claim_id": "CLM-0001",
+      "family": "F8 Complaints",
+      "expect": "Agreed"
+    }
+  ]
+}

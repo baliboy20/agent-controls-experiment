@@ -50,6 +50,13 @@
       "Read(../**)",
       "Edit(claims.sqlite)",
       "Write(claims.sqlite)"
+    ],
+    "allow": [
+      "Read",
+      "Glob",
+      "Grep",
+      "Bash(python3:*)",
+      "Bash(sqlite3:*)"
     ]
   }
 }
